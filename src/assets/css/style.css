@@ -1,33 +1,33 @@
 
 @font-face{
     font-family:"Helvetica-Regular";
-    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot);
-    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff) format("woff"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
+    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot);
+    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff) format("woff"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
     font-weight:400;font-style:normal}
 
 
 @font-face{
      font-family:'HelveticaBold';
-     src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.eot);
-        src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.eot?#iefix) format("embedded-opentype"),
-        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.woff2) format("woff2"),
-        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.woff) format("woff"),
-        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.ttf) format("truetype"),
-        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.svg#Helvetica-Bold) format("svg");
+     src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.eot);
+        src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.eot?#iefix) format("embedded-opentype"),
+        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff2) format("woff2"),
+        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff) format("woff"),
+        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.ttf) format("truetype"),
+        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.svg#Helvetica-Bold) format("svg");
         font-weight:700;font-style:normal}
 
 @font-face{
     font-family:'Helvetica-Normal';
-    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot);
-    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff) format("woff"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
-    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
+    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot);
+    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff) format("woff"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
+    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
     font-weight:400;font-style:normal}
  
  body{ margin: 0; padding: 0; background: #fff;}
@@ -149,9 +149,9 @@
 .topmenu button{font-size: 22px; color: #fff;   font-family:'Helvetica-Normal';   padding: 29px 28px;}
 
 
-.topmenu button:hover{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/hoverbg.png) no-repeat center bottom; }
+.topmenu button:hover{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/hoverbg.png) no-repeat center bottom; }
 
-.topmenu button.active{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/hoverbg.png) no-repeat center bottom; }
+.topmenu button.active{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/hoverbg.png) no-repeat center bottom; }
 
 .menuicon{ display: none;}
 
@@ -185,7 +185,7 @@
 
    .footer_block_con2_wrapper span:last-child{border-left: solid 1px #283134; padding-left: 30px;}
 
-   .footer_block_con2_wrapper span button{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_menuicon.png) no-repeat  left 10px;      width: 160px;
+   .footer_block_con2_wrapper span button{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/footer_menuicon.png) no-repeat  left 10px;      width: 160px;
     text-align: left; font-size: 18px; color: #949797; font-family:'Helvetica-Normal';}
 
     .footer_block_con2_wrapper span button.active{color: #13783f;}
@@ -208,9 +208,9 @@
    .clear{ clear: both; overflow: hidden; display: block;}
 
 
-   .footer_form_body{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_form_bg1.jpg) no-repeat left top!important; background-size: cover!important;    display: block!important; border-top:solid 1px #fff!important; margin: -4px 0 0 0!important; padding: 0!important;}
+   .footer_form_body{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/footer_form_bg1.jpg) no-repeat left top!important; background-size: cover!important;    display: block!important; border-top:solid 1px #fff!important; margin: -4px 0 0 0!important; padding: 0!important;}
 
-   .footer_form_wrapper_body { background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_form_bg2.png) no-repeat right top!important;   display: block!important; border: none!important; margin: 0!important; padding: 0!important; overflow: hidden;}
+   .footer_form_wrapper_body { background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/footer_form_bg2.png) no-repeat right top!important;   display: block!important; border: none!important; margin: 0!important; padding: 0!important; overflow: hidden;}
 
    .footer_form_text{ display: block; float: left; margin: 50px 0 50px 80px!important; width: 590px;}
 
@@ -227,7 +227,7 @@
 
     .footer_form_text p{ margin: 0; padding: 20px 0 0 0; font-size: 22px; color: #2e2f2f; line-height: 30px;  font-weight: normal; font-family:'Helvetica-Normal';}
 
-    .footer_form_formcon{ width: 556px; display: block; float: left; background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/form_shadow.png) no-repeat left bottom; padding-left: 82px; margin: 42px 0;}
+    .footer_form_formcon{ width: 556px; display: block; float: left; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/form_shadow.png) no-repeat left bottom; padding-left: 82px; margin: 42px 0;}
 
     .footer_form_formcon_wrapper{ padding: 8px; display: block; border: solid 1px #b3c0c7; border-radius: 10px; background: rgba(206,224,235,1);
       background: -moz-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
