@@ -1,0 +1,281 @@
+
+@font-face{
+    font-family:"Helvetica-Regular";
+    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot);
+    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff) format("woff"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
+    font-weight:400;font-style:normal}
+
+
+@font-face{
+     font-family:'HelveticaBold';
+     src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.eot);
+        src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.eot?#iefix) format("embedded-opentype"),
+        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.woff2) format("woff2"),
+        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.woff) format("woff"),
+        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.ttf) format("truetype"),
+        url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Bold.svg#Helvetica-Bold) format("svg");
+        font-weight:700;font-style:normal}
+
+@font-face{
+    font-family:'Helvetica-Normal';
+    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot);
+    src:url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.woff) format("woff"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
+    url(https://datamed-unlimited.s3.amazonaws.com/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
+    font-weight:400;font-style:normal}
+ 
+ body{ margin: 0; padding: 0; background: #fff;}
+ 
+ .clear{ clear: both; overflow: hidden; display: block; margin: 0; padding: 0;}
+
+ .mat-card{border-radius: 0px!important;}
+
+ 
+/*----loder----------*/
+.loderbody{width:100vw; height:100vh; display:table-cell; vertical-align:middle; text-align:center; background: #ffffff;}
+
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e30018;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+
+/*------loder end-------*/
+
+.top_block{ display: block; width: 1670px!important; margin: 0 auto; padding: 0px!important; position: relative!important; background: none!important; border: none!important; box-shadow: none!important;}
+
+.top_block_wrapper{ position: absolute; left: 0; top:34px; z-index: 99; background: #fff; display: block; width: 100%;}
+
+.clear{ clear: both!important; overflow: hidden!important; display: block!important; margin: 0!important; padding: 0!important;}
+
+.toplogo{ width: 490px; float: left; text-align: center; padding: 10px 0;}
+
+
+.toplogo img{ display: block; margin: 0 auto; max-width: 90%;}
+
+.topmenu{   width: 1180px; display: block; float: right; background: #e30018; height: 94px;}
+
+.topmenu_wrapper{ padding: 0 32px; display: block;}
+ 
+
+.topmenu button{font-size: 22px; color: #fff;   font-family:'Helvetica-Normal';   padding: 29px 28px;}
+
+
+.topmenu button:hover{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/hoverbg.png) no-repeat center bottom; }
+
+.topmenu button.active{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/hoverbg.png) no-repeat center bottom; }
+
+.menuicon{ display: none;}
+
+
+
+.footer_block1{ background: #151d20; margin:0 0 0 0; border-top: solid 10px #576c68; background: #151d20!important; padding: 0px!important;}
+
+
+.footer_block2{ background: #010101; margin: 0; padding: 18px 0!important; border-top: solid 1px #576c68; background: #010101!important;
+   text-align: center; font-size: 13px; color: #777777;   font-family:'Helvetica-Normal';}
+
+   .footer_block2 span{ display: inline-block; padding: 2px 6px; font-size: 13px; color: #777777;   font-family:'Helvetica-Normal';}
+
+   .footer_block2 span:nth-child(1),   .footer_block2 span:nth-child(2){ cursor: pointer;}
+
+
+   .footer_block1_wrapper{ width: 1670px; padding: 50px 0; margin: 0 auto; }
+
+   .footer_block_con{display: flex;}
+
+   .footer_block_con1{   display: flex;
+    align-items: center; width: 35%;}
+
+    .footer_block_con1 img{ max-width: 90%;}
+
+   .footer_block_con2{ border-left: solid 1px #283134; padding-left: 40px; width: 40%; }
+
+.footer_block_con2_wrapper{display: flex;}
+
+   .footer_block_con2_wrapper span{ display: block; }
+
+   .footer_block_con2_wrapper span:last-child{border-left: solid 1px #283134; padding-left: 30px;}
+
+   .footer_block_con2_wrapper span button{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_menuicon.png) no-repeat  left 10px;      width: 160px;
+    text-align: left; font-size: 18px; color: #949797; font-family:'Helvetica-Normal';}
+
+    .footer_block_con2_wrapper span button.active{color: #13783f;}
+
+
+   .footer_block_con3{ border-left: solid 1px #283134; padding-left: 40px; width: 25%;}
+
+   .footer_block_con3 .material-icons{ color: #13783f; display: block;}
+
+   .footer_block_con3 label{ margin: 0; display: flex; padding: 0; font-size: 18px; color: #949797; font-family:'Helvetica-Normal';  width: 100%; margin-bottom: 12px;}
+
+   .footer_block_con3 label a{ color: #949797; text-decoration: none;}
+
+   .footer_block_con3 label span{ display: block; padding-left: 30px;}
+   .footer_block_con h2{ margin: 0; padding: 0 0 25px 0; font-size: 24px; color: #fff;  font-family:'Helvetica-Normal'; font-weight: normal;}
+
+
+
+
+   .clear{ clear: both; overflow: hidden; display: block;}
+
+
+   .footer_form_body{ background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_form_bg1.jpg) no-repeat left top!important; background-size: cover!important;    display: block!important; border-top:solid 1px #fff!important; margin: -4px 0 0 0!important; padding: 0!important;}
+
+   .footer_form_wrapper_body { background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/footer_form_bg2.png) no-repeat right top!important;   display: block!important; border: none!important; margin: 0!important; padding: 0!important; overflow: hidden;}
+
+   .footer_form_text{ display: block; float: left; margin: 50px 0 50px 80px!important; width: 590px;}
+
+   .footer_form_text h2{ font-size: 48px; color: #2e2f2f; margin: 0px; padding: 0px; font-weight: normal; font-family:'Helvetica-Normal';}
+
+   .footer_form_text h2::after{ content: ''; display: block; width: 100%; height: 8px; border-radius: 10px; margin:0 ; background: rgba(29,187,231,1);
+    background: -moz-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,187,231,1)), color-stop(100%, rgba(12,195,5,1)));
+    background: -webkit-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+    background: -o-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+    background: -ms-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+    background: linear-gradient(to right, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbbe7', endColorstr='#0cc305', GradientType=1 );} 
+
+    .footer_form_text p{ margin: 0; padding: 20px 0 0 0; font-size: 22px; color: #2e2f2f; line-height: 30px;  font-weight: normal; font-family:'Helvetica-Normal';}
+
+    .footer_form_formcon{ width: 556px; display: block; float: left; background: url(https://datamed-unlimited.s3.amazonaws.com/assets/images/form_shadow.png) no-repeat left bottom; padding-left: 82px; margin: 42px 0;}
+
+    .footer_form_formcon_wrapper{ padding: 8px; display: block; border: solid 1px #b3c0c7; border-radius: 10px; background: rgba(206,224,235,1);
+      background: -moz-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,224,235,1)), color-stop(100%, rgba(207,225,235,1)));
+      background: -webkit-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -o-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -ms-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: linear-gradient(135deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee0eb', endColorstr='#cfe1eb', GradientType=1 );}
+
+      .footer_form_formcon_wrapper h3{ display: block; background: rgba(29,187,231,1);
+        background: -moz-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,187,231,1)), color-stop(100%, rgba(12,195,5,1)));
+        background: -webkit-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -o-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -ms-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: linear-gradient(to right, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbbe7', endColorstr='#0cc305', GradientType=1 ); text-align: center; padding: 15px; 
+        
+        font-size: 34px; color: #ffffff;   font-family:'HelveticaBold'; margin:0 0 30px 0;  border: solid 1px #fff; line-height: 36px; text-shadow: 0 0 5px #187b93;}
+
+        .footer_form_formcon_wrapper .mat-card-content{ display: block; margin: 0 20px 10px 20px; clear: both; overflow: hidden;}
+
+        .footer_form_formcon_wrapper .mat-card-content label{ display: block; width: 160px; padding-top: 10px; float: left; font-size: 18px; color: #2e2f2f; font-family:'Helvetica-Normal'; font-weight: normal;}
+
+        .footer_form_formcon_wrapper .mat-card-content label span{ color: #ff0000;}
+        .footer_form_formcon_wrapper .mat-card-content .mat-form-field{ width: 296px;     padding: 5px 10px; float: right; border: solid 1px #83a5b7; background: #fff;}
+
+        .footer_form_formcon_wrapper  .mat-form-field-underline{ display: none;}
+
+        .footer_form_formcon_wrapper  .mat-form-field-label-wrapper{display: none;}
+
+        .footer_form_formcon_wrapper  .mat-form-field-infix{ border: 0px;}
+
+        .footer_form_formcon_wrapper  .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+          padding-bottom: 0;
+      }
+
+      .footer_form_formcon_wrapper   textarea.mat-input-element{ resize: none;}
+
+      .footer_form_formcon_wrapper .subbtn{display: block; float: right; width: 172px; margin-bottom: 10px; background: rgba(34,60,76,1);
+        background: -moz-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,60,76,1)), color-stop(100%, rgba(15,29,40,1)));
+        background: -webkit-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -o-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -ms-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: linear-gradient(to bottom, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#223c4c', endColorstr='#0f1d28', GradientType=0 ); border-radius: 4px; margin-right: 20px;
+       font-size: 24px; color: #fff; text-transform: uppercase; font-family:'Helvetica-Normal'; padding: 8px 0 2px 0; font-weight: normal;
+      
+      }
