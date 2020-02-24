@@ -18,6 +18,13 @@
 .footer_block1_wrapper{ width: 1400px;}
 
 .footer_form_text{ width: 500px;}
+
+.allergy_testing_report_wrapper {
+    width: 1400px;}
+
+    .allergy_testing_report_wrapper span{ width:436px;}
+
+    .allergy_testing_report_wrapper span::before{ left: 45%; top: 45%; display: none;  }
 }
 
 
@@ -77,6 +84,9 @@
         .topmenu_wrapper{ padding: 0 12px; }
 
         .footer_block1_wrapper{ width: 1200px;}
+
+        .allergy_testing_report_wrapper{ width: 1200px;}
+        .allergy_testing_report_wrapper span{ width:370px; }
 }
 
 @media(max-width:1360px) {
@@ -115,6 +125,9 @@
         font-size: 20px;
         padding: 19px 12px;
     }
+
+    .allergy_testing_report_wrapper{ width: 1160px;}
+    .allergy_testing_report_wrapper span{ width:356px; }
 }
 
 
@@ -222,6 +235,11 @@
         display: block;
         padding-left: 0;
     }
+
+    .allergy_testing_report_wrapper{ width: 991px;}
+    .allergy_testing_report_wrapper span{ width:465px; }
+
+    .bigimageform{ width: 90vw; height: 400px; }
 }
 
 
@@ -229,6 +247,9 @@
     .footer_form_wrapper_body {
         background-position: 130% bottom!important;
     }
+
+    .allergy_testing_report_wrapper{ width:767px;}
+    .allergy_testing_report_wrapper span{ width:352px; }
 }
 
 @media(max-width:960px) {
@@ -280,6 +301,27 @@
     .footer_form_formcon_wrapper .subbtn{ margin-top: 10px;}
 }
 
+
+@media(max-width:800px) {
+
+.allergy_testing_report_wrapper{ width:600px; }
+.allergy_testing_report_wrapper span{ width:270px;  }
+
+.allergy_testing_report_wrapper span::before {
+    left: 36%;
+    top: 36%;}
+}
+
+@media(max-width:640px) {
+    .allergy_testing_report_wrapper{ width:100%; display: block; }
+    .allergy_testing_report_wrapper span{ width:90%; display: block; margin: 10px auto;  }
+
+    .allergy_testing_report_wrapper span::before {
+        left: 45%;
+        top: 45%;
+    }
+}
+
 @media(max-width:500px) {
 
     .toplogo img{ width: 300px;}
@@ -291,6 +333,15 @@
     .footer_form_formcon_wrapper .subbtn{ margin-right: 10px;}
 }
 
+
+@media(max-width:440px) {
+
+.allergy_testing_report_wrapper span::before {
+    left: 40%;
+    top: 40%;
+}
+
+}
 
 @media(max-width:380px) {
 

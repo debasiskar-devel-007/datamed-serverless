@@ -1,34 +1,18 @@
-
-@font-face{
-    font-family:"Helvetica-Regular";
-    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot);
-    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff) format("woff"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
-    font-weight:400;font-style:normal}
-
-
-@font-face{
-     font-family:'HelveticaBold';
-     src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.eot);
-        src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.eot?#iefix) format("embedded-opentype"),
-        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff2) format("woff2"),
-        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff) format("woff"),
-        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.ttf) format("truetype"),
-        url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.svg#Helvetica-Bold) format("svg");
-        font-weight:700;font-style:normal}
-
 @font-face{
     font-family:'Helvetica-Normal';
-    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot);
-    src:url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.eot?#iefix) format("embedded-opentype"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff) format("woff"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.ttf) format("truetype"),
-    url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.svg#Helvetica-Normal) format("svg");
-    font-weight:400;font-style:normal}
+    src: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff2) format("woff2"),
+     url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Normal.woff) format("woff");
+     font-weight:400;font-style:normal;}
+
+     @font-face{
+      font-family:'HelveticaBold';
+ 
+      src: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff2) format("woff2"),
+      url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/fonts/Helvetica-Bold.woff) format("woff");
+      font-weight:700;font-style:normal;}
+ 
+
+   
  
  body{ margin: 0; padding: 0; background: #fff;}
  
@@ -245,9 +229,9 @@
         background: -o-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
         background: -ms-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
         background: linear-gradient(to right, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbbe7', endColorstr='#0cc305', GradientType=1 ); text-align: center; padding: 15px; 
-        
-        font-size: 34px; color: #ffffff;   font-family:'HelveticaBold'; margin:0 0 30px 0;  border: solid 1px #fff; line-height: 36px; text-shadow: 0 0 5px #187b93;}
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbbe7', endColorstr='#0cc305', GradientType=1 ); text-align: center; padding: 15px; padding-bottom: 12px; 
+         
+        font-size: 34px; color: #ffffff;   font-family:'Helvetica-Normal'; margin:0 0 30px 0;  border: solid 1px #fff; line-height: 36px; text-shadow: 0 0 5px #187b93;}
 
         .footer_form_formcon_wrapper .mat-card-content{ display: block; margin: 0 20px 10px 20px; clear: both; overflow: hidden;}
 
@@ -269,6 +253,115 @@
       .footer_form_formcon_wrapper   textarea.mat-input-element{ resize: none;}
 
       .footer_form_formcon_wrapper .subbtn{display: block; float: right; width: 172px; margin-bottom: 10px; background: rgba(34,60,76,1);
+        background: -moz-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,60,76,1)), color-stop(100%, rgba(15,29,40,1)));
+        background: -webkit-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -o-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: -ms-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        background: linear-gradient(to bottom, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#223c4c', endColorstr='#0f1d28', GradientType=0 ); border-radius: 4px; margin-right: 20px;
+       font-size: 24px; color: #fff; text-transform: uppercase; font-family:'Helvetica-Normal'; padding: 8px 0 2px 0; font-weight: normal;
+      
+      }
+
+
+      .footer_form_formcon input.mat-input-element {
+        margin-top: 0;
+        height: 25px;
+    }
+
+ 
+    .footer_form_formcon  .mat-form-field-appearance-legacy .mat-form-field-infix {
+      padding: 0;
+  }
+
+  .footer_form_formcon  .mat-select-value { 
+    padding: 5px 0;
+}
+
+.footer_form_formcon textarea.mat-input-element {
+  padding: 2px 0;
+  margin: 0px 0;
+  height: 50px;
+}
+
+
+.allergy-testing_report{ box-shadow: none; border: none; background: #d6e4e3!important; margin: -4px 0 0 0!important; padding: 0 0 40px 0!important;}
+
+.allergy_testing_report_wrapper{ width: 1620px; margin: 0 auto; display: flex; padding: 0!important;}
+
+.allergy_testing_report_wrapper span{ width: 510px; overflow: hidden;display: inline-flex;     border:5px solid #fff;
+  box-shadow: 0px 0px 8px #888; margin: 10px; background-color:#000;     position: relative;}
+
+.allergy_testing_report_wrapper span img{ width: 100%;}
+
+.allergy-testing_report h2{ font-size: 48px; color: #020819; font-family:'Helvetica-Normal'; text-transform: uppercase; text-align: center; padding: 40px 15px 10px 15px; margin: 0; font-weight: bold;}
+
+.allergy_testing_report_wrapper span:hover img{ opacity: 0.7;} 
+
+.allergy_testing_report_wrapper span::before{ content: '';  background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/zoom_icon.png) no-repeat center center; width: 77px; height: 77px; position: absolute;
+  left: 216.5px; top: 216.5px; display: none;  }
+ 
+  .allergy_testing_report_wrapper span:hover::before{display: block; z-index: 99;}
+
+  .bigimageform{ width: 90vw; height: 90vh; }
+  .bigimageform img{ width: 100%; }
+
+  .bigimageform .mat-dialog-container{ padding: 10px;}
+
+  .contact_body{background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/contact_bg.jpg) no-repeat left top!important; background-size: cover!important; margin: 0!important; padding: 150px 0 0 0!important; }
+
+  .contact_body_wrapper{ width: 1380px; margin: 0 auto;}
+
+  .contact_img_class{ display: block; width: 956px; float: left;  margin: 130px 0 25px 0!important;}
+
+  .contact_img_class img{ width: 100%;}
+
+
+  /*----------------*/
+
+  .con_form_body{ width:400px; display: block; float: right; margin:20px 0 40px 0;}
+
+    .con_form_wrapper{ padding: 8px; display: block; border: solid 1px #b3c0c7; border-radius: 10px; background: rgba(206,224,235,1);
+      background: -moz-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,224,235,1)), color-stop(100%, rgba(207,225,235,1)));
+      background: -webkit-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -o-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: -ms-linear-gradient(-45deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      background: linear-gradient(135deg, rgba(206,224,235,1) 0%, rgba(207,225,235,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee0eb', endColorstr='#cfe1eb', GradientType=1 );}
+
+      .con_form_wrapper h3{ display: block; background: rgba(29,187,231,1);
+        background: -moz-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,187,231,1)), color-stop(100%, rgba(12,195,5,1)));
+        background: -webkit-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -o-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: -ms-linear-gradient(left, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        background: linear-gradient(to right, rgba(29,187,231,1) 0%, rgba(12,195,5,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbbe7', endColorstr='#0cc305', GradientType=1 ); text-align: center; padding:25px 15px; padding-bottom: 20px; 
+         
+        font-size:36px; text-transform: uppercase; color: #ffffff;   font-family:'Helvetica-Normal'; margin:0 0 10px 0;  border: solid 1px #fff; line-height: 36px; text-shadow: 0 0 5px #187b93;}
+
+        .con_form_wrapper .mat-card-content{ display: block; margin: 0 20px 10px 20px; clear: both; overflow: hidden;}
+
+        .con_form_wrapper .mat-card-content label{ display: block; width: 100%; padding-top: 10px;font-size: 18px; color: #2e2f2f; font-family:'Helvetica-Normal'; font-weight: normal;}
+
+        .con_form_wrapper .mat-card-content label span{ color: #ff0000;}
+        .con_form_wrapper .mat-card-content .mat-form-field{padding: 5px 10px; float: none; border: solid 1px #83a5b7; background: #fff; display: block;}
+
+        .con_form_wrapper  .mat-form-field-underline{ display: none;}
+
+        .con_form_wrapper  .mat-form-field-label-wrapper{display: none;}
+
+        .con_form_wrapper  .mat-form-field-infix{ border: 0px;}
+
+        .con_form_wrapper  .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+          padding-bottom: 0;
+      }
+
+      .con_form_wrapper   textarea.mat-input-element{ resize: none;}
+
+      .con_form_wrapper .subbtn{display: block;  width: 100%;     margin-top: 15px!Important; margin-bottom: 10px; background: rgba(34,60,76,1);
         background: -moz-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);
         background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,60,76,1)), color-stop(100%, rgba(15,29,40,1)));
         background: -webkit-linear-gradient(top, rgba(34,60,76,1) 0%, rgba(15,29,40,1) 100%);

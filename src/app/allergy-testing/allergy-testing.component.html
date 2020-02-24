@@ -1,0 +1,45 @@
+<app-top></app-top>
+
+<span style="position: relative; display: block;">
+<img src="https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_img1.jpg" alt="#" style="width: 100%;">
+
+
+</span>
+
+<span style="position: relative; display: block; margin-top: -4px;">
+  <img src="https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_img2.jpg" alt="#" style="width: 100%;">
+ 
+  </span>
+
+  <span style="position: relative; display: block; margin-top: -4px;">
+    <img src="https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_img3.jpg" alt="#" style="width: 100%;">
+   
+    </span>
+
+    <mat-card class="allergy-testing_report">
+  
+         <h2>REPORT</h2>
+
+         <mat-card-content class="allergy_testing_report_wrapper">
+
+         <span *ngFor="let item of reportImg; let i = index" (click)="openDialog(item)">
+            <img src="{{item.image}}" >
+            
+            
+            </span>
+       
+
+
+           
+
+
+</mat-card-content>
+
+
+
+    </mat-card>
+ 
+
+
+      <app-footer-form-block></app-footer-form-block>
+<app-footer></app-footer>

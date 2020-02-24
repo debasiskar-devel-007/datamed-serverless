@@ -24,6 +24,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterFormBlockComponent } from './footer-form-block/footer-form-block.component';
 import { TeamComponent } from './team/team.component';
 import { Rm3aComponent } from './rm3a/rm3a.component';
+import { BloodCardTestingComponent } from './blood-card-testing/blood-card-testing.component';
+import { AllergyTestingComponent,reportZoom } from './allergy-testing/allergy-testing.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,11 @@ import { Rm3aComponent } from './rm3a/rm3a.component';
     HomeComponent,
     FooterFormBlockComponent,
     TeamComponent,
-    Rm3aComponent
+    Rm3aComponent,
+    BloodCardTestingComponent,
+    AllergyTestingComponent,
+    ContactComponent,
+    reportZoom
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -47,6 +54,7 @@ import { Rm3aComponent } from './rm3a/rm3a.component';
     HttpClientModule,
     FormsModule
   ],
+  entryComponents: [reportZoom],
   providers: [CookieService],
   bootstrap: [AppComponent]
 })
