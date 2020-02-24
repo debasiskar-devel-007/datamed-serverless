@@ -32,6 +32,20 @@
     .footer_form_wrapper_body {
         background-position: 126% top!important;
     }
+
+
+    .topmenu{    height: 74px;}
+
+    .topmenu button {
+        padding: 19px 16px;
+    }
+
+    .toplogo {
+        width: 390px;
+        padding: 9px 0;}
+
+    
+
 }
 
 
@@ -48,14 +62,17 @@
     .top_block{  width: 1200px!important;}
 
     .toplogo {
-        width: 300px;     padding: 25px 0;
+        width: 300px;
+        padding: 15px 0;
     }
     .topmenu {
         width: 900px;
     }
 
     .topmenu button {
-        font-size: 20px; padding: 29px 14px;}
+        font-size: 20px;
+        padding: 19px 14px;
+    }
 
         .topmenu_wrapper{ padding: 0 12px; }
 
@@ -66,6 +83,8 @@
     .footer_form_wrapper_body {
         background-position: 140% top!important;
     }
+
+    .top_block_wrapper{ top: 20px;}
 }
 
 
@@ -94,7 +113,7 @@
 
     .topmenu button {
         font-size: 20px;
-        padding: 29px 12px;
+        padding: 19px 12px;
     }
 }
 
@@ -135,8 +154,11 @@
         padding:12px; text-align: center; display: block; text-align: center; border-top: solid 1px #fff; width: 100%; border-radius: 0px; 
     }
 
-    .topmenu button:hover{ background-image: none; background-color: #000000;}
+    .topmenu button:hover{ background-image: none!important; background-color: #000000;}
 
+    .topmenu button.active{  background-image: none!important; background-color: #000000;}
+
+    
     .menuicon {
         display: block;
         width: 30px;
