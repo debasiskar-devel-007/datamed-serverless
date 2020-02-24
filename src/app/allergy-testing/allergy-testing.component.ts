@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
  
-export interface reportzoom {
+export interface reportZoom {
   details: any;
 }
  
@@ -54,7 +54,7 @@ openDialog(item:any): void {
   dialogRef.afterClosed().subscribe(result => {
     console.log('The dialog was closed');
    // this.animal = result;
-   console.log(`Dialog result: ${result}`);
+  //  console.log(`Dialog result: ${result}`);
   });
 }
 
@@ -75,7 +75,7 @@ export class reportZoom {
   constructor(
     public dialogRef: MatDialogRef<reportZoom>,
      @Inject(MAT_DIALOG_DATA)  public data: reportZoom) {
-      console.log("Modal data >>>--->", data);
+      // console.log("Modal data >>>--->", data);
      }
 
   onNoClick(): void {
