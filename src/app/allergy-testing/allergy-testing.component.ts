@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { MetaService } from '@ngx-meta/core';
  
 export interface reportZoom {
   details: any;
@@ -16,7 +17,22 @@ export class AllergyTestingComponent implements OnInit {
 
 
 
-  constructor(public dialog: MatDialog) { window.scrollTo(500, 0);}
+  constructor(public dialog: MatDialog, private readonly meta: MetaService,) { window.scrollTo(500, 0);
+  
+    this.meta.setTitle('DataMed Unlimited - Allergy Testing Solutions');
+    this.meta.setTag('og:description', 'We approach blood allergy testing with proprietary, FDA-approved methods and reporting techniques that enables us to deliver good medicine through a superior market position.');
+    this.meta.setTag('twitter:description', 'We approach blood allergy testing with proprietary, FDA-approved methods and reporting techniques that enables us to deliver good medicine through a superior market position.');
+
+    this.meta.setTag('og:keyword', 'DataMed Unlimited Allergy Testing, Allergy Testing DataMed Unlimited, Allergy Testing Solutions, Allergy Testing');
+    this.meta.setTag('twitter:keyword', 'DataMed Unlimited Allergy Testing, Allergy Testing DataMed Unlimited, Allergy Testing Solutions, Allergy Testing');
+
+    this.meta.setTag('og:title', 'DataMed Unlimited - Allergy Testing Solutions');
+    this.meta.setTag('twitter:title', 'DataMed Unlimited - Allergy Testing Solutions');
+    this.meta.setTag('og:type', 'website');
+    this.meta.setTag('og:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/logo.png');
+    this.meta.setTag('twitter:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/logo.png');
+  
+  }
 
 
   ngOnInit() {

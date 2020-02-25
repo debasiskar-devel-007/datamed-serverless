@@ -28,6 +28,10 @@ import { BloodCardTestingComponent } from './blood-card-testing/blood-card-testi
 import { AllergyTestingComponent,reportZoom } from './allergy-testing/allergy-testing.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { MetaModule } from '@ngx-meta/core';
+import { FacebookModule } from 'ngx-facebook';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +56,9 @@ import { ContactComponent } from './contact/contact.component';
     DemoMaterialModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MetaModule.forRoot(),
+    FacebookModule.forRoot(),
   ],
   entryComponents: [reportZoom],
   providers: [CookieService],

@@ -25,6 +25,22 @@
     .allergy_testing_report_wrapper span{ width:436px;}
 
     .allergy_testing_report_wrapper span::before{ left: 45%; top: 45%; display: none;  }
+
+    .home_bnner_text_banner {
+        width: 1380px;}
+
+        .rm3atesting_bnner_text_banner{ width: 1380px;}
+
+            .blood-card-testing_bnner_text_banner{ width: 1380px;}
+
+            .allergy-testing_text_banner{ width: 1380px;}
+
+            .team_text_banner{ width: 1380px;}
+
+            .team_banner {
+                background-position: -188px top!important;
+            }
+
 }
 
 
@@ -34,6 +50,16 @@
         background-position: 110% top!important;
     }
 }
+
+@media(max-width:1580px) {
+    .blood-card-testing_banner{ background-position: -120px top!important;}
+
+    .team_banner {
+        background-position: -298px top!important;
+    }
+}
+
+
 @media(max-width:1540px) {
 
     .footer_form_wrapper_body {
@@ -51,10 +77,17 @@
         width: 390px;
         padding: 9px 0;}
 
-    
+        .allergy-testing_banner{ background-position: -128px top!important;}
+
+        .team_banner {
+            background-position: -358px top!important;
+        }
 
 }
 
+@media(max-width:1480px) {
+    .blood-card-testing_banner{ background-position: -128px top!important;}
+}
 
 @media(max-width:1440px) {
 
@@ -94,9 +127,33 @@
             margin: 0 auto;
         }
 
-        .contact_img_class {  width: 736px;}
+        .contact_banner_class {  width: 720px;}
 
         .contact_body{ padding-top: 120px!important;}
+
+        .home_bnner_text_banner {
+            width: 1190px;}
+
+            .contact_banner_class_wrapper .contact_text_class h2 p{ font-size: 60px;}
+
+            .contact_banner_class_wrapper .contact_text_class h3 strong{ font-size: 40px;}
+
+            .contact_banner_class_wrapper .contact_text_class h3{font-size: 20px;}
+
+            .rm3atesting_bnner_text_banner{ width: 1190px;}
+
+            .blood-card-testing_bnner_text_banner{ width: 1190px;}
+
+            .blood-card-testing_banner{ background-position: 0px top!important;}
+
+            .allergy-testing_text_banner{ width: 1190px;}
+
+            .allergy-testing_banner {
+                background-position: -188px top!important;
+            }
+
+
+            .team_text_banner{ width: 1190px;}
 }
 
 @media(max-width:1360px) {
@@ -105,6 +162,8 @@
     }
 
     .top_block_wrapper{ top: 20px;}
+
+    .con_form_body{ margin-top: 5px;}
 }
 
 
@@ -257,11 +316,11 @@
         margin: 0 auto;
     }
 
-    .contact_img_class {  width:100%; float: none; text-align: center;     margin: 0 0 25px 0!important;}
+    .contact_banner_class {  width:100%; float: none; text-align: center;     margin: 0 0 25px 0!important;}
 
     .contact_body{ padding-top: 30px!important;}
 
-    .contact_img_class img { width: auto;
+    .contact_banner_class img { width: auto;
         max-width: 100%;
     }
 
@@ -271,6 +330,31 @@
         float: none;
         margin: 0px 0 40px 0;
     }
+
+    .home_bnner_text_banner {
+        width: 100%;}
+
+
+        .home_bnner_text { 
+            width: 100%; 
+            text-align: center;     margin-top: 0;
+        }
+
+        .home_banner{ height: auto!important; background-size: 120%!important; padding-top: 48%!important; min-height: inherit!important;}
+
+        .contact_banner_class_wrapper {
+            display: block;
+        }
+
+        .contact_banner_class_wrapper .contact_text_class {
+            display: block;
+            width: 100%;
+        }
+
+        .contact_address_class {
+            width: auto;
+            height: 320px;}
+        
 }
 
 
@@ -341,7 +425,15 @@
 .allergy_testing_report_wrapper span::before {
     left: 36%;
     top: 36%;}
+
+    .home_banner {
+        height: auto!important;
+        background-size: 190%!important;
+        padding-top: 76%!important;
+        background-position: center top!important;
+    }
 }
+
 
 @media(max-width:640px) {
     .allergy_testing_report_wrapper{ width:100%; display: block; }
@@ -351,6 +443,14 @@
         left: 45%;
         top: 45%;
     }
+
+    .home_bnner_text h2 p { 
+        font-size: 56px;
+        line-height: 54px;}
+
+        .contact_banner_class_wrapper .contact_text_class h2 p {
+            font-size: 56px;
+        }
 }
 
 @media(max-width:500px) {
@@ -362,6 +462,15 @@
     .footer_form_formcon_wrapper .mat-card-content{    margin: 0 10px 10px 10px;}
 
     .footer_form_formcon_wrapper .subbtn{ margin-right: 10px;}
+
+    .home_bnner_text h2 p {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .contact_banner_class_wrapper .contact_text_class h2 p {
+        font-size: 44px;
+    }
 }
 
 
@@ -372,6 +481,16 @@
     top: 40%;
 }
 
+.contact_banner_class_wrapper .contact_text_class h3 strong {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.contact_banner_class_wrapper .contact_text_class h3 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
 }
 
 @media(max-width:380px) {
@@ -379,4 +498,24 @@
     .toplogo img{ width: 240px;}
 
     .menuicon{ margin-top: 0px;}
+
+    .home_bnner_text h2 p {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .home_bnner_text h2 { padding: 15px;}
+
+    .home_bnner_text h3{ padding: 15px; font-size: 26px;  line-height: 30px;}
+
+    .contact_banner_class_wrapper .contact_text_class h2 p {
+        font-size:38px;
+    }
+
+
+    .contact_banner_class_wrapper .contact_text_class h2{ padding: 15px;}
+   
+    .contact_banner_class_wrapper .contact_text_class h3{ padding: 15px;}
+
+    
 }
