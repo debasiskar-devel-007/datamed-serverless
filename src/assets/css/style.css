@@ -135,7 +135,7 @@
 
 .topmenu button:hover{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/hoverbg.png) no-repeat center bottom; }
 
-.topmenu button.active{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/hoverbg.png) no-repeat center bottom; }
+.topmenu .active{ background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/hoverbg.png) no-repeat center bottom; }
 
 .menuicon{ display: none;}
 
@@ -372,3 +372,6 @@
        font-size: 24px; color: #fff; text-transform: uppercase; font-family:'Helvetica-Normal'; padding: 8px 0 2px 0; font-weight: normal;
       
       }
+
+
+      .loderimg{ display: block; margin: 0 auto; max-width: 90%; margin-bottom: 25px;}

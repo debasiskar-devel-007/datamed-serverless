@@ -87,6 +87,16 @@
 
         .allergy_testing_report_wrapper{ width: 1200px;}
         .allergy_testing_report_wrapper span{ width:370px; }
+
+
+        .contact_body_wrapper {
+            width: 1150px;
+            margin: 0 auto;
+        }
+
+        .contact_img_class {  width: 736px;}
+
+        .contact_body{ padding-top: 120px!important;}
 }
 
 @media(max-width:1360px) {
@@ -240,6 +250,27 @@
     .allergy_testing_report_wrapper span{ width:465px; }
 
     .bigimageform{ width: 90vw; height: 400px; }
+
+
+    .contact_body_wrapper {
+        width:96%;
+        margin: 0 auto;
+    }
+
+    .contact_img_class {  width:100%; float: none; text-align: center;     margin: 0 0 25px 0!important;}
+
+    .contact_body{ padding-top: 30px!important;}
+
+    .contact_img_class img { width: auto;
+        max-width: 100%;
+    }
+
+    .con_form_body {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0px 0 40px 0;
+    }
 }
 
 
