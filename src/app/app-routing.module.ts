@@ -19,7 +19,7 @@ const routes: Routes = [
   {path:'blood-card-testing', component: BloodCardTestingComponent}, 
   {path:'allergy-testing', component: AllergyTestingComponent}, 
   {path:'contact-us', component: ContactComponent}, 
-
+  {path:'**',component:HomeComponent}
 ];
 
 @NgModule({
