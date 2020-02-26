@@ -1,8 +1,36 @@
+@media(max-width:1890px) {
+    .aws_banner_img7 {
+        display: block;
+        margin: 80px 0 80px 180px;
+        width: 46%;
+    }
+}
+
+@media(max-width:1840px) {
+    .home_block1 {
+        background-size: 25%!important;
+    }
+}
+
 @media(max-width:1800px) {
     .footer_form_formcon{ margin-left: -50px;}
+
+    .aws_banner_img3 { 
+        margin: 0px 0 0 200px;
+    }
 }
 
 @media(max-width:1700px) {
+
+
+    .aws_banner_img7 {
+        display: block;
+        margin: 80px 0 80px 70px;
+        width: 49%;
+    }
+
+    .team_block3_heading1{ width: 500px;}
+    .team_block2_heading1{    width: 500px;}
     .top_block{  width: 1400px!important;}
 
     .toplogo {
@@ -41,21 +69,49 @@
                 background-position: -188px top!important;
             }
 
-}
 
+            .footer_block_con1{ width: 30%;}
+
+            .footer_block_con3{ width: 30%;}
+
+            .home_block3_wrapper1{ width: 75%;}
+
+            .aws_banner_img3 {
+                margin: 0px 0 0 50px;
+            }
+
+            .aws_banner_img2 {
+                margin: 24px 0 0 50px;
+            }
+}
+@media(max-width:1680px) {
+    .home_block1 {
+        background-size: 22%!important;
+    }
+}
 
 @media(max-width:1640px) {
 
     .footer_form_wrapper_body {
         background-position: 110% top!important;
     }
+
+    .home_block2_body{ width: 1400px; }
+
+    .home_block2{ background-position: -160px top!important;}
 }
+
+
 
 @media(max-width:1580px) {
     .blood-card-testing_banner{ background-position: -120px top!important;}
 
     .team_banner {
         background-position: -298px top!important;
+    }
+
+    .home_block3_wrapper1 {
+        width: 80%;
     }
 }
 
@@ -83,13 +139,54 @@
             background-position: -358px top!important;
         }
 
+
+        .home_block3_wrapper1 { 
+            width: 88%;
+            margin: 45px 0 0 5%!important;
+        }
+
 }
 
+@media(max-width:1500px) {
+
+
+    .team_block3_body{ background-position: 50% top!important;}
+    .aws_banner_img7 {
+        display: block;
+        margin: 80px 0 80px 40px;
+        width: 60%;
+    }
+    .aws_banner_img3 {
+        margin: 0px 0 0 50px;
+        width: 700px;
+    }
+
+    .aws_banner_img2 {
+        margin: 24px 0 0 50px;
+        width: 300px;
+    }
+}
 @media(max-width:1480px) {
     .blood-card-testing_banner{ background-position: -128px top!important;}
+    .home_block1_wrapper { width: 874px;}
+    .home_block1 {
+        background-size: 20%!important;
+    }
 }
 
 @media(max-width:1440px) {
+
+    .footer_block_con3 label span {
+        padding-left: 25px;
+    }
+
+    .footer_block_con2{ padding-left: 25px;}
+
+    .footer_block_con3{ padding-left: 25px;     width: 35%;}
+
+    .footer_block_con2{ width: 35%;}
+
+    .footer_block_con2_wrapper span button{ width: 200px;}
 
     .footer_form_text {
         width: 420px;     margin: 50px 0 50px 50px!important;
@@ -154,6 +251,21 @@
 
 
             .team_text_banner{ width: 1190px;}
+
+
+
+            .home_block2_body{ width: 1190px; }
+
+            .home_block2{ background-position: -390px top!important;}
+
+
+            .home_block3_wrapper1 { 
+                width: 1220px;
+                margin:  0 auto!important; margin-top: 45px!important;
+
+            }
+
+            .team_block1_wrapper{ width: 1190px; }
 }
 
 @media(max-width:1360px) {
@@ -164,8 +276,40 @@
     .top_block_wrapper{ top: 20px;}
 
     .con_form_body{ margin-top: 5px;}
+    .home_block1_wrapper {
+        width: 764px;
+    }
+
+    .home_block1_wrapper h2 {
+        margin: 0 auto; 
+        font-size: 48px; ;
+        width: 680px;
+        display: block;
+        line-height: 50px;
+    }
+
+    .team_block2_heading1 {
+        width: 420px;
+    }
+
 }
 
+
+@media(max-width:1320px) {
+    .team_banner {
+        background-position: -458px top!important;
+    }
+
+    .aws_banner_img2 {
+        margin: 24px 0 0 50px;
+        width: 260px;
+    }
+
+    .aws_banner_img3 {
+        margin: 0px 0 0 50px;
+        width: 620px;
+    }
+}
 
 @media(max-width:1300px) {
     .footer_form_formcon {
@@ -173,6 +317,25 @@
 
         .footer_form_formcon_wrapper .mat-card-content .mat-form-field {
             width: 216px;}
+
+            .rm3atesting_banner{ background-position: -100px top!important;}
+
+
+            .home_block3_wrapper1 { 
+                width: auto; padding: 0 25px;
+                margin:  0 auto!important; margin-top: 45px!important;
+
+            }
+
+            .home_block3_wrapper2{ background: none!important; padding: 0px; margin: 30px 25px; width: auto;}
+
+            .home_block3_wrapper3{  padding: 0px;  margin: 30px 25px; margin-bottom: 30px; width: auto;}
+
+            .home_block3_wrapper3_img{background: none!important; padding: 0px; width: 49%;}
+
+            .home_block3_wrapper4_img{background: none!important; padding: 0px; width: 49%; margin: 0px;}
+
+            .team_block1_wrapper{ width: 1150px; }
 }
 
 
@@ -197,10 +360,65 @@
 
     .allergy_testing_report_wrapper{ width: 1160px;}
     .allergy_testing_report_wrapper span{ width:356px; }
+
+    .rm3atesting_banner{ background-position: -90px top!important;}
 }
 
 
 @media(max-width:1199px) {
+
+
+    .team_block3_link {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        position: inherit;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto; line-height: 36px;
+    }
+
+    .aws_banner_img7 {
+        display: block;
+        margin: 40px auto;
+        width: auto;
+        max-width: 90%;
+    }
+
+    .team_block3_body {
+        background-position: right top!important;
+        background-size: 180%!important;
+        padding-top: 58%;
+        background-color: #111!important;
+    }
+    .team_block3_heading1 {
+        width: auto;
+        height: auto;
+        background-image: none!important;
+        background: #fff!important;
+        line-height: inherit;
+        padding: 10px 25px 0 25px;
+        margin-top: 0px;
+    }
+
+    .team_block2_link{ position: inherit; right: 0; bottom: 0; display: block; margin: 0 auto;}
+
+    .aws_banner_img3 {
+        margin: 25px auto;
+        width: auto;
+        display: block;
+        max-width: 95%;
+    }
+
+    .aws_banner_img2 {
+        margin: 24px auto;
+        width: auto;
+        max-width: 90%;
+    }
+
+    .team_block2_body{ background-size: 190%!important; background-position: right top; padding-top:94%; background-color: #d0e0ea!important; text-align: center;}
+
+    .team_block2_heading1{ width: auto; height: auto; background-image: none!important; background: #fff!important; line-height: inherit; padding: 10px 25px 0 25px; margin-top: 0px;}
 
     .footer_form_text {
         width: auto;
@@ -355,6 +573,182 @@
             width: auto;
             height: 320px;}
         
+
+            .rm3atesting_banner {
+                background-position: right  top!important;
+                padding-top: 38%!important;
+                background-size: 120%!important;
+                min-height: inherit;
+            }
+
+            .rm3atesting_bnner_text {
+                display: block;
+                width: 100%;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .rm3atesting_bnner_text_banner {
+                width: 100%;
+            }
+
+            .rm3atesting_bnner_text h3{ padding-right: 26px;}
+
+
+
+
+            .blood-card-testing_banner {
+                background-position: right  top!important;
+                padding-top: 38%!important;
+                background-size: 120%!important;
+                min-height: inherit;
+            }
+
+            .blood-card-testing_bnner_text{
+                display: block;
+                width: 100%;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .blood-card-testing_bnner_text_banner {
+                width: 100%;
+            }
+
+            .blood-card-testing_bnner_text h3{ padding-right: 26px;}
+
+
+
+
+            .allergy-testing_banner {
+                background-position: right  top!important;
+                padding-top: 38%!important;
+                background-size: 120%!important;
+                min-height: inherit;
+            }
+
+            .allergy-testing_bnner_text{
+                display: block;
+                width: 100%;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .allergy-testing_text_banner {
+                width: 100%;
+            }
+
+            .allergy-testing_bnner_text h3{ padding-right: 26px;}
+
+
+
+
+
+            .team_banner {
+                background-position: right  top!important;
+                padding-top: 38%!important;
+                background-size: 120%!important;
+                min-height: inherit;
+            }
+
+            .team_bnner_text{
+                display: block;
+                width: 100%;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .team_text_banner {
+                width: 100%;
+            }
+
+            .team_bnner_text h3{ padding-right: 26px;}
+
+
+            .home_block1_wrapper h2 {
+                margin: 0 auto; 
+                font-size: 48px; ;
+                width: 100%;
+                display: block;
+              
+            }
+
+            .home_block1_wrapper {
+                width: auto;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+
+            .home_block1 {
+                background-size: auto!important;
+                background-position: center bottom!important;
+                padding-bottom: 350px!important;
+            }
+
+
+            .home_block2_body{ width: auto; padding-left: 25px; padding-right: 25px; background: rgba(25, 32, 45, 0.9)!important; }
+
+            .home_block2{ background-position: left top!important;}
+
+            .home_block2_con {
+                display: block;
+                width: auto;
+                float: none; 
+                text-align: center;
+            }
+
+            .home_block2_con_block label { height: 102px; text-align: left;}
+
+            .home_block2_con h3 br{ display: none;}
+
+            .home_block3_wrapper1 .home_block3_wrapper1_con1 {
+                width: 100%;
+                float: none;
+                text-align: center;
+            }
+            .home_block3_wrapper1 .home_block3_wrapper1_con1 h3{ border: none; padding-right: 0px;}
+
+            .home_block3_wrapper1 .home_block3_wrapper1_con2 {
+                width: 100%;
+                float: none;
+                text-align: center;
+                padding-top: 25px;
+                display: block;
+            }
+
+            .home_block3_wrapper1 .home_block3_wrapper1_con2 label::before {
+                content: ''; 
+                position: inherit;
+                left: 0;
+                top: 0;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .home_block3{ background-image: none!important; background-color: #c3deed!important;}
+
+            .home_block3_wrapper1 .home_block3_wrapper1_con2 label{padding-left: 0px;}
+
+            .home_block2_con h2{line-height: 50px;     padding: 10px 15px;}
+
+            .footer_form_text{ text-align: center;}
+
+
+            .team_block1_wrapper{ width: auto; margin-left: 25px; margin-right: 25px; }
+
+            .team_list_wrapper .teamdevider{ display: none;}
+
+            .team_list_wrapper .team_list { 
+                width: 33.3%;
+                float: none;
+                text-align: center;
+                display: inline-block; margin: 20px 0;
+            }
+
+            .team_list_wrapper{ text-align: center; margin-top: 20px;}
+            
+            .team_block2 h2{ font-size: 38px;     padding: 25px 0 15px 0 ;}
+  
 }
 
 
@@ -414,8 +808,27 @@
     .footer_form_formcon_wrapper .mat-card-content .mat-form-field textarea{ padding-left: 5px; padding-right: 5px;}
 
     .footer_form_formcon_wrapper .subbtn{ margin-top: 10px;}
+
+    .team_list_wrapper .team_list { 
+        width: 50%;}
 }
 
+
+@media(max-width:880px) {
+    .home_block2_con_block {
+        width: 100%;
+        float: none;
+    }
+
+    .home_block2_con_block:nth-of-type(2){ float: right; margin-top: 25px;}
+
+    .home_block2_con_block label {
+        height: auto;
+        text-align: center;
+        background-position: center top!important;
+        padding: 116px 0 15px 0;
+    }
+}
 
 @media(max-width:800px) {
 
@@ -432,6 +845,58 @@
         padding-top: 76%!important;
         background-position: center top!important;
     }
+
+    .rm3atesting_banner {
+        background-position: right top!important;
+        padding-top: 60%!important;
+        background-size: 190%!important;
+        min-height: inherit;
+    }
+
+
+    .blood-card-testing_banner {
+        background-position: right top!important;
+        padding-top: 60%!important;
+        background-size: 190%!important;
+        min-height: inherit;
+    }
+
+
+    .allergy-testing_banner {
+        background-position: right top!important;
+        padding-top: 60%!important;
+        background-size: 190%!important;
+        min-height: inherit;
+    }
+
+
+   .team_banner  {
+        background-position: right top!important;
+        padding-top: 60%!important;
+        background-size: 190%!important;
+        min-height: inherit;
+    }
+
+
+    .home_bnner_text h2 p { 
+        font-size: 60px;}
+
+        .contact_banner_class_wrapper .contact_text_class h2 p {
+            font-size: 60px;
+        }
+
+        .rm3atesting_bnner_text h2 p{font-size: 60px;}
+
+            .blood-card-testing_bnner_text h2 p{font-size: 60px;}
+
+
+            .allergy-testing_bnner_text h2 p{font-size: 60px;}
+
+            .team_bnner_text h2 p{font-size: 60px;}
+
+            .home_block3_wrapper3_img{ width: 100%;}
+
+            .home_block3_wrapper4_img{width: 100%; margin-top: 25px;}
 }
 
 
@@ -445,12 +910,63 @@
     }
 
     .home_bnner_text h2 p { 
-        font-size: 56px;
+        font-size: 55px;
         line-height: 54px;}
 
         .contact_banner_class_wrapper .contact_text_class h2 p {
-            font-size: 56px;
+            font-size: 55px;
         }
+
+        .rm3atesting_bnner_text h2 p{font-size: 55px;
+            line-height: 54px;}
+
+            .blood-card-testing_bnner_text h2 p{font-size: 55px;
+            line-height: 54px;}
+
+
+            .allergy-testing_bnner_text h2 p{font-size: 55px;
+                line-height: 54px;}
+
+                .team_bnner_text h2 p{font-size: 55px;
+                    line-height: 54px;}
+
+                    .team_list_wrapper .team_list { 
+                        width: 100%;}
+
+                        .team_list_text {
+                            padding: 22px 0px 0 0px;
+                        }
+}
+
+@media(max-width:540px) {
+
+    .rm3atesting_banner {
+        background-position: 68% top!important;
+        padding-top: 87%!important;
+        background-size: 270%!important;
+        min-height: inherit;
+    }
+
+    .blood-card-testing_banner {
+        background-position: 74% top!important;
+        padding-top: 87%!important;
+        background-size: 270%!important;
+        min-height: inherit;
+    }
+
+    .allergy-testing_banner {
+        background-position: 74% top!important;
+        padding-top: 87%!important;
+        background-size: 270%!important;
+        min-height: inherit;
+    }
+
+    .team_banner  {
+        background-position: 85% top!important;
+        padding-top: 87%!important;
+        background-size: 270%!important;
+        min-height: inherit;
+    }
 }
 
 @media(max-width:500px) {
@@ -471,10 +987,28 @@
     .contact_banner_class_wrapper .contact_text_class h2 p {
         font-size: 44px;
     }
+
+    
+    .rm3atesting_bnner_text h2 p{font-size: 44px;
+        line-height: 44px;}
+
+
+        .blood-card-testing_bnner_text h2 p{font-size: 44px;
+            line-height: 44px;}
+
+            .allergy-testing_bnner_text h2 p{font-size: 44px;
+                line-height: 44px;}
+
+                .team_bnner_text h2 p{font-size: 44px;
+                    line-height: 44px;}
+
+    
 }
 
 
 @media(max-width:440px) {
+
+    .team_block2_link{ width: 280px; font-size: 22px}
 
 .allergy_testing_report_wrapper span::before {
     left: 40%;
@@ -491,6 +1025,28 @@
     line-height: 26px;
 }
 
+
+
+.home_bnner_text h2 p {
+    font-size: 40px;
+}
+
+.contact_banner_class_wrapper .contact_text_class h2 p {
+    font-size: 40px;
+}
+
+
+
+.rm3atesting_bnner_text h2 p{ font-size: 40px;
+}
+
+
+    .blood-card-testing_bnner_text h2 p{font-size: 40px;}
+
+        .allergy-testing_bnner_text h2 p{font-size: 40px;}
+
+        .team_bnner_text h2 p{font-size: 40px;}
+
 }
 
 @media(max-width:380px) {
@@ -506,7 +1062,7 @@
 
     .home_bnner_text h2 { padding: 15px;}
 
-    .home_bnner_text h3{ padding: 15px; font-size: 26px;  line-height: 30px;}
+    .home_bnner_text h3{ padding: 15px; font-size: 22px;  line-height:26px;}
 
     .contact_banner_class_wrapper .contact_text_class h2 p {
         font-size:38px;
@@ -515,7 +1071,58 @@
 
     .contact_banner_class_wrapper .contact_text_class h2{ padding: 15px;}
    
-    .contact_banner_class_wrapper .contact_text_class h3{ padding: 15px;}
+    .contact_banner_class_wrapper .contact_text_class h3{ padding: 15px; font-size: 22px;  line-height:26px;}
+
+    .rm3atesting_bnner_text h2 { padding: 15px;}
+    .rm3atesting_bnner_text h2 p{font-size: 38px;
+        line-height: 40px;}
+
+        .rm3atesting_bnner_text h3{padding: 15px; font-size: 22px;  line-height:26px;}
+
+
+        .blood-card-testing_bnner_text h2 { padding: 15px;}
+        .blood-card-testing_bnner_text h2 p{font-size: 38px;
+            line-height: 40px;}
+    
+          .blood-card-testing_bnner_text h3{padding: 15px; font-size: 22px;  line-height:26px;}
+
+
+
+
+          .allergy-testing_bnner_text h2 { padding: 15px;}
+          .allergy-testing_bnner_text h2 p{font-size: 38px;
+              line-height: 40px;}
+      
+            .allergy-testing_bnner_text h3{padding: 15px; font-size: 22px;  line-height:26px;}
+
+
+            .team_bnner_text h2 { padding: 15px;}
+            .team_bnner_text h2 p{font-size: 38px;
+                line-height: 40px;}
+        
+              .team_bnner_text h3{padding: 15px; font-size: 22px;  line-height:26px;}
 
     
+}
+
+
+@media(max-width:360px) {
+
+    .home_bnner_text h2 p {
+        font-size: 35px; }
+    
+    .contact_banner_class_wrapper .contact_text_class h2 p {
+        font-size: 35px; }
+    
+    
+    
+    .rm3atesting_bnner_text h2 p{ font-size: 35px; }
+    
+    
+        .blood-card-testing_bnner_text h2 p{font-size: 35px;}
+    
+            .allergy-testing_bnner_text h2 p{font-size: 35px;}
+
+            .team_bnner_text h2 p{font-size: 35px;}
+       
 }

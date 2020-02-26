@@ -29,8 +29,8 @@ export class AllergyTestingComponent implements OnInit {
     this.meta.setTag('og:title', 'DataMed Unlimited - Allergy Testing Solutions');
     this.meta.setTag('twitter:title', 'DataMed Unlimited - Allergy Testing Solutions');
     this.meta.setTag('og:type', 'website');
-    this.meta.setTag('og:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/logo.png');
-    this.meta.setTag('twitter:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/logo.png');
+    this.meta.setTag('og:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/Facebook_Meta_Image.jpg');
+    this.meta.setTag('twitter:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/Twitter_Meta_Image.jpg');
   
   }
 
