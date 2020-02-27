@@ -4,12 +4,19 @@
         margin: 80px 0 80px 180px;
         width: 46%;
     }
+    .team_block3_body_text {
+        width: 840px;}
 }
 
 @media(max-width:1840px) {
     .home_block1 {
         background-size: 25%!important;
     }
+
+    .allergy_testing_block2{ background-position: 110% top!important; background-size: 50%!important;}
+
+    
+    
 }
 
 @media(max-width:1800px) {
@@ -18,7 +25,15 @@
     .aws_banner_img3 { 
         margin: 0px 0 0 200px;
     }
+    .team_block3_body{ background-position: 30% top!important;}
+    .team_block3_body_text p{ width: auto;}
+
+
+    .blood_card_block1_wrapper{ background-position: 20% top!important;}
+
+    .blood_card_block1 { background-position: -18% top!important;}
 }
+
 
 @media(max-width:1700px) {
 
@@ -92,6 +107,10 @@
 
 @media(max-width:1640px) {
 
+    .allergy_testing_block3_wrapper {
+        width: 1400px;
+    }
+
     .footer_form_wrapper_body {
         background-position: 110% top!important;
     }
@@ -99,9 +118,26 @@
     .home_block2_body{ width: 1400px; }
 
     .home_block2{ background-position: -160px top!important;}
+
+    .team_block3_body_text { 
+        margin: 80px 0 0 50px; 
+    }
+    .team_block3_body {
+        background-position: 50% top!important;
+    }
+
+    .blood_card_block2_wrapper {
+        width: 1480px; background-image: none!important;     padding: 0px;}
+
+        .blood_card_block2_wrapper_con_block2 { margin-top: -80px;}
 }
 
+@media(max-width:1600px) {
+    .allergy_testing_block2_body_wrapper {
+        width: 630px;}
 
+        .allergy_testing_block2_body h3{ font-size: 36px;}
+}
 
 @media(max-width:1580px) {
     .blood-card-testing_banner{ background-position: -120px top!important;}
@@ -145,10 +181,20 @@
             margin: 45px 0 0 5%!important;
         }
 
+        .blood_card_block2_wrapper {  width: 1380px;}
+
+            .blood_card_block2_body h2{ width: 1380px;}
+
 }
 
 @media(max-width:1500px) {
 
+    .blood_card_block1_con{ width: 810px;}
+    .blood_card_block1 {
+        background-position: -30% top!important;
+    }
+
+    .allergy_testing_block2_body{background-size: 640px!important;     padding: 40px 0 40px 460px;} 
 
     .team_block3_body{ background-position: 50% top!important;}
     .aws_banner_img7 {
@@ -165,6 +211,11 @@
         margin: 24px 0 0 50px;
         width: 300px;
     }
+
+    .allergy_testing_block3_body {
+       
+        background: rgba(25, 32, 45, 0.6)!important;
+    }
 }
 @media(max-width:1480px) {
     .blood-card-testing_banner{ background-position: -128px top!important;}
@@ -176,6 +227,9 @@
 
 @media(max-width:1440px) {
 
+    .blood_card_block1_con {
+        width: 750px;
+    }
     .footer_block_con3 label span {
         padding-left: 25px;
     }
@@ -266,9 +320,60 @@
             }
 
             .team_block1_wrapper{ width: 1190px; }
+
+
+            .allergy_testing_block3_wrapper {
+                width:auto; padding: 0 25px;
+            }
+
+            .blood_card_block2_wrapper {  width: 1280px;}
+
+            .blood_card_block2_body h2{ width: 1280px;}
 }
 
+@media(max-width:1400px) {
+    .team_block3_body_text {
+        width: 750px;
+    }
+
+    .team_block3_body_text  img{ max-width: 100%;}
+
+    .team_block3_body_text p {
+        font-size: 26px;
+        line-height: 33px;}
+        .team_block3_body_text p strong {
+            font-size: 30px;}
+
+            .team_block3_body {
+                background-position: 58% top!important;
+            }
+
+            .allergy_testing_block2_body {
+                background-size: 520px!important;
+                padding: 40px 0 40px 370px;
+            }
+
+            .allergy-testing_banner {
+                background-position: -268px top!important;
+            }
+
+            .blood_card_block1_con {
+                width: 660px;
+            }
+        
+        
+            .blood_card_block1_wrapper {
+                background-position: 50% top!important;
+            }
+
+}
 @media(max-width:1360px) {
+
+
+    .blood_card_block1 {
+        background-position: -40% top!important;
+    }
+
     .footer_form_wrapper_body {
         background-position: 140% top!important;
     }
@@ -292,6 +397,14 @@
         width: 420px;
     }
 
+    .allergy_testing_block3_text { 
+        width: 800px;}
+
+
+        .blood_card_block2_wrapper {  width:auto; margin-left: 40px; margin-right: 40px;}
+
+        .blood_card_block2_body h2{  width:auto; margin-left: 40px; margin-right: 40px;}
+
 }
 
 
@@ -312,6 +425,14 @@
 }
 
 @media(max-width:1300px) {
+
+    .allergy_testing_block2_body_wrapper {
+        width: 560px;
+    }
+
+    .allergy_testing_block2_body h3 {
+        font-size: 34px;
+    }
     .footer_form_formcon {
         width: 456px;}
 
@@ -336,9 +457,30 @@
             .home_block3_wrapper4_img{background: none!important; padding: 0px; width: 49%; margin: 0px;}
 
             .team_block1_wrapper{ width: 1150px; }
+
+            .team_block3_body_text {
+                width: 640px;
+            }
+
+            .team_block3_body {
+                background-position: 64% top!important;
+            }
 }
 
 
+@media(max-width:1290px) {
+    .blood_card_block1_wrapper {
+        background-position: 60% top!important;
+    }
+
+    .blood_card_block1 {
+        background-position: -50% top!important;
+    }
+
+    .blood_card_block2_wrapper_con_block2 {
+        margin-top: -150px;
+    }
+}
 @media(max-width:1240px) {
 
     .footer_form_text {
@@ -367,9 +509,116 @@
 
 @media(max-width:1199px) {
 
+    .blood_card_block2_wrapper_con_block1 {
+        padding: 30px;
+        background-position: center bottom!important;
+        background-size: 100%!important;
+        padding-bottom: 60%;
+    }
+    .blood_card_block2_wrapper_con_block2 {
+        padding: 30px;
+        background-position: center bottom!important;
+        background-size: 100%!important;
+        padding-bottom: 60%; margin-top: 0px;
+    }
+
+    .blood_card_block2_body h2{ text-align: center;}
+
+    .blood_card_block2_wrapper_con p{ text-align: center; background-position: center top!important; padding: 34px 0 0 0;}
+
+    .blood_card_block1_con h2{ line-height: 48px;}
+
+    .blood_card_block1_con {
+        width: auto;
+        padding: 50px 25px;    background: rgba(221, 232, 253, 0.8)!important;
+    }
+
+    .blood_card_block1{ display: block; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background:#d0e6f1 url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block1_img2.png) no-repeat right top!important; }
+
+
+    .blood_card_block1_wrapper{display: block; overflow: hidden; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-bg1.png) no-repeat right top!important; background-size: cover!important; }
+
+
+    .allergy_testing_block3_text_sub p{ padding: 0; margin-left: 0px;}
+    .allergy_testing_block3_text_sub strong{ padding-left: 0px; padding-top: 10px;}
+
+    .allergy_testing_block3_text_sub:nth-of-type(1) {
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .allergy_testing_block3_text_sub:nth-of-type(2) {
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: center; margin-top: 25px;
+    }
+
+    .allergy_testing_block3_text_sub:nth-of-type(1) strong::before{ position: inherit; left: 0; top: 0; padding-bottom: 10px;}
+    .allergy_testing_block3_text_sub:nth-of-type(2) strong::before{ position: inherit; left: 0; top: 0; padding-bottom: 10px;}
+
+    .allergy_testing_block3_text_sub p:nth-of-type(1)::before{ position: inherit; left: 0; top: 0; padding-bottom: 10px;} 
+
+    .allergy_testing_block3_text_sub p:nth-of-type(2)::before{ position: inherit; left: 0; top: 0; padding-bottom: 10px; }
+
+    .allergy_testing_block3_text h3{ text-align: center;}
+
+    .allergy_testing_block3_body {
+        background: rgba(25, 32, 45, 0.9)!important;
+    }
+
+    .allergy_testing_block3_text label {
+        display: block;
+        padding: 60px 0 0 0;
+        background-position: center top!important;
+        font-size: 30px;
+        line-height: 32px;
+        color: #d3d6d7;
+        font-family: 'Helvetica-Normal';
+        font-weight: normal;
+        margin: 0 0 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .allergy_testing_block3_text {
+        width: 100%;
+        background-position: center bottom!important; 
+        float: none;
+        padding: 40px 0 660px 0!important;
+    }
+
+
+    .allergy_testing_block3_text h2{ text-align: center;   line-height: 50px;
+        padding: 10px 15px 7px 15px;}
+    .allergy_testing_block2{ background-image: none!important;}
+
+    .allergy_testing_block2_body label{ background-position: center top!important; padding: 74px 0 0 0; text-align: center;} 
+
+    .allergy_testing_block2_body_wrapper {
+        width: auto;
+        padding: 0 25px;
+    }
+
+    .allergy_testing_block2_body {
+        background-size: auto!important;
+        padding: 40px 0 620px 0px;
+        background-position: left bottom!important;
+    }
+
+    .allergy-testing_report h2{    padding: 25px 15px 10px 15px;}
+
+    .team_block3_body_text {
+        width: auto;
+        margin: 35px 0px 25px 0px;
+        text-align: center;
+    }
+
 
     .team_block3_link {
-        width: 90%;
+        width:auto; display: inline-block;
         height: auto;
         padding: 15px;
         position: inherit;
@@ -388,8 +637,8 @@
     .team_block3_body {
         background-position: right top!important;
         background-size: 180%!important;
-        padding-top: 58%;
-        background-color: #111!important;
+        padding-top: 58%; height: auto; padding-left: 25px; padding-right: 25px;
+        background-color: #0c6c9f!important; text-align: center;
     }
     .team_block3_heading1 {
         width: auto;
@@ -416,7 +665,7 @@
         max-width: 90%;
     }
 
-    .team_block2_body{ background-size: 190%!important; background-position: right top; padding-top:94%; background-color: #d0e0ea!important; text-align: center;}
+    .team_block2_body{ background-size: 190%!important; background-position: right top; padding-top:94%; background-color: #17579e!important; text-align: center;}
 
     .team_block2_heading1{ width: auto; height: auto; background-image: none!important; background: #fff!important; line-height: inherit; padding: 10px 25px 0 25px; margin-top: 0px;}
 
@@ -936,9 +1185,45 @@
                         .team_list_text {
                             padding: 22px 0px 0 0px;
                         }
+
+                        .blood_card_block2_wrapper_con_block1 {
+                            padding: 15px; 
+                            padding-bottom: 60%;
+                        }
+                        .blood_card_block2_wrapper_con_block2 {
+                            padding: 15px; 
+                            padding-bottom: 60%;  
+                        }
+
+                        .blood_card_block2_wrapper_con{ padding: 15px 0;}
+
+                        .blood_card_block2_wrapper {
+                            width: auto;
+                            margin-left: 25px;
+                            margin-right: 25px;
+                        }
+
+                        .blood_card_block2_body h2 {
+                            width: auto;
+                            margin-left: 25px;
+                            margin-right: 25px;
+                        }
+
 }
 
 @media(max-width:540px) {
+
+    .allergy_testing_block2_body h2 {line-height: 40px; padding-bottom: 15px;     font-size: 40px;}
+
+    .allergy_testing_block2_body h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .allergy_testing_block2_body {
+        background-size: 130%!important;
+        padding: 40px 0 110% 0px; 
+    }
 
     .rm3atesting_banner {
         background-position: 68% top!important;
@@ -970,6 +1255,11 @@
 }
 
 @media(max-width:500px) {
+
+    .team_block3_body {
+        background-position: 85% top!important;
+        background-size: 270%!important;
+        padding-top: 88%;}
 
     .toplogo img{ width: 300px;}
 
@@ -1007,6 +1297,13 @@
 
 
 @media(max-width:440px) {
+    .blood_card_block2_body h2{ font-size: 38px;}
+
+    
+    .allergy_testing_block3_text { 
+        padding: 40px 0 160% 0!important;
+        background-size: 100%!important;
+    }
 
     .team_block2_link{ width: 280px; font-size: 22px}
 
@@ -1051,6 +1348,8 @@
 
 @media(max-width:380px) {
 
+
+    .team_block3_heading1{ line-height: 44px;     padding: 20px 25px 8px 25px;}
     .toplogo img{ width: 240px;}
 
     .menuicon{ margin-top: 0px;}
