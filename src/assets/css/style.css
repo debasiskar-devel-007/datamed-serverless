@@ -295,7 +295,7 @@
 
 .allergy_testing_report_wrapper span img{ width: 100%;}
 
-.allergy-testing_report h2{ font-size: 48px; color: #020819; font-family:'Helvetica-Normal'; text-transform: uppercase; text-align: center; padding: 40px 15px 10px 15px; margin: 0; font-weight: bold;}
+.allergy-testing_report h2{ font-size: 48px; color: #020819; font-family:'Helvetica-Normal'; text-transform: uppercase; text-align: center; padding: 30px 15px 10px 15px; margin: 0; font-weight: bold;}
 
 .allergy_testing_report_wrapper span:hover img{ opacity: 0.7;} 
 
@@ -737,7 +737,7 @@
  .team_block1{display: block!important; margin: 0!important; padding: 0 0 40px 0!important; background: #fff!important; border:none!important; box-shadow: none!important;}       
  
  .team_block1_wrapper{ width: 1400px; margin: 0 auto; display: block;} 
-
+ 
  .team_block1_wrapper h2{ margin: 0; padding: 40px 0 5px 0; font-size: 48px;  font-family:'Helvetica-Normal'; text-align: center;  color: #0d0e09; font-weight: normal;}
 
  .team_block1_wrapper h3{ margin: 0; padding: 0; font-size: 30px; color: #222a34;  font-family:'Helvetica-Normal'; text-align: center; font-weight: normal; line-height: 32px;}
@@ -758,7 +758,7 @@
 
   .team_list_img_block{ display: block; padding: 5px; background: #fff; border-radius: 500px; overflow: hidden; width: 230px; height: 230px; position: relative;}
 
-  .team_list_img_block img{ width: 120%; margin-top: -5%; margin-left: -5%;}
+  .team_list_img_block img{ width: 100%; }
 
 
   .team_list_img_block::before{ content: ''; display: block; width: 230px; height: 230px;  border-radius: 500px; border: solid 5px #fff; position: absolute; left: 0; top:0; box-shadow: 0 0 10px #000 inset;}
@@ -767,7 +767,7 @@
 
   .team_list_text label{ display: block; margin: 0; padding: 0; font-size: 24px; color: #2b2b2b; text-transform: uppercase; font-family:'Helvetica-Normal';   font-weight: bold;}
 
-  .team_list_text p{ display: block; margin: 0; padding: 8px 0 0 0; font-size: 24px; color: #ee3d3b;  font-family:'Helvetica-Normal';   font-weight: bold;}
+  .team_list_text p{ display: block; margin: 0; padding: 5px 0 0 0; font-size: 24px; color: #ee3d3b;  font-family:'Helvetica-Normal';   font-weight: normal;}
 
 
   .team_list_wrapper .teamdevider{ display: block; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/team_devider.png) no-repeat center center!important;    
@@ -819,7 +819,7 @@
   font-size: 48px;  font-family:'Helvetica-Normal';    color: #22658b; font-weight: normal; line-height: 94px;
 }
 
-.team_block3_body{ display: block; overflow: hidden; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/aws_banner_img6.jpg) no-repeat right top!important; background-size: cover!important; position: relative; padding-bottom: 40px; }
+.team_block3_body{ display: block; overflow: hidden; height: 624px; border-top: solid 1px #fff; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/aws_banner_img6.jpg) no-repeat right top!important; background-size: cover!important; position: relative; padding-bottom: 40px; }
 
 
 .team_block3_heading1{ display: block; text-align: center; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/aws_banner_img1.png) no-repeat right bottom!important; width: 680px; height: 84px;
@@ -831,7 +831,7 @@
 .aws_banner_img7{ display: block; margin: 80px 0 80px 180px; }
 
 
-.team_block3_link{ display: block; width: 940px; height: 62px; text-align: center; line-height: 62px; background: rgba(29,186,230,1);
+.team_block3_link{ display: block; width: 880px; height: 62px; text-align: center; line-height: 62px; background: rgba(29,186,230,1);
   background: -moz-linear-gradient(left, rgba(29,186,230,1) 0%, rgba(12,195,6,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,186,230,1)), color-stop(100%, rgba(12,195,6,1)));
   background: -webkit-linear-gradient(left, rgba(29,186,230,1) 0%, rgba(12,195,6,1) 100%);
@@ -843,3 +843,214 @@
   -moz-box-shadow: 0px 0px 18px -6px rgba(18,46,34,1);
   box-shadow: 0px 0px 18px -6px rgba(18,46,34,1); text-align: center; font-size: 30px; color: #ffffff; text-transform: uppercase; text-decoration: none; font-weight: bold; text-shadow: 0 0 4px #888; position: absolute; right: 40px; bottom: 40px;
 }
+
+
+.team_block3_body_text{ width: 930px; margin: 80px 0 0 130px; display: block;}
+
+.deviderblock{ display: block; width: 100%; height: 4px; background: #41e9ff; border-radius: 5px; margin: 15px 0;}
+
+.team_block3_body_text p{ font-size: 30px; line-height: 36px; width: 90%; color: #fff; font-weight: normal;  font-family:'Helvetica-Normal';     text-shadow: 0 0 10px #084371;}
+
+.team_block3_body_text p strong{ font-weight: normal; font-size: 36px; color: #fdff33;}
+
+
+.allergy_testing_block2{ display: block; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background:#d0e6f1 url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block1_img2.png) no-repeat right top!important; }
+
+.allergy_testing_block2_body{ display: block; margin: 0; padding: 40px 0 40px 560px; border: none!important; box-shadow: none!important; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block1_img1.png) no-repeat left bottom!important; }
+
+.allergy_testing_block2_body_wrapper{ width: 690px; margin: 0; display: block;}
+.allergy_testing_block2_body h2{ text-align: center; font-size: 48px; color: #0d0e09; text-transform: uppercase; margin: 0; padding: 0;  font-family:'Helvetica-Normal';}
+
+.allergy_testing_block2_body h3{ display: block; background: rgba(29,189,229,1);
+  background: -moz-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,189,229,1)), color-stop(100%, rgba(12,195,6,1)));
+  background: -webkit-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -o-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -ms-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: linear-gradient(to right, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbde5', endColorstr='#0cc306', GradientType=1 ); margin: 0 0 45px 0; 
+  
+  padding:15px 15px; text-align: center; font-family:'Helvetica-Normal'; font-size: 40px; color: #ffffff; text-shadow:  0 0 2px #0c4c14; line-height: 46px; position: relative;}
+
+  .allergy_testing_block2_body h3::before{ position: absolute; content: ''; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_texticon.png) no-repeat left bottom!important;
+   display: block; width: 20px; height: 18px; position: absolute; left: 0; bottom:-18px;
+  }
+
+  .allergy_testing_block2_body label{ display: block; font-size: 24px; color: #0d0e09;  font-family:'Helvetica-Normal';  font-weight: normal; line-height: 36px; padding: 0 0 0 114px; margin: 0 0 25px 15px; background-position: left top!important;}
+
+  .allergy_testing_block2_body label:last-of-type{ margin-bottom: 10px;}
+
+  .allergy_testing_block2_body label:nth-of-type(1){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_icon1.png) no-repeat; }
+  .allergy_testing_block2_body label:nth-of-type(2){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_icon2.png) no-repeat; }
+  .allergy_testing_block2_body label:nth-of-type(3){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_icon3.png) no-repeat; }
+  .allergy_testing_block2_body label:nth-of-type(4){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_icon4.png) no-repeat;}
+
+
+  .allergy_testing_block3{ display: block!important; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_bg2.jpg) no-repeat left top!important; background-size: cover!important; } 
+
+  .allergy_testing_block3_wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    display: block; overflow: hidden;
+}
+
+.allergy_testing_block3_text {
+  display: block;
+  width: 900px; 
+  float: right;
+  padding: 40px 0 40px 410px;
+
+  background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block2_img1.png) no-repeat left bottom;
+}
+
+
+.allergy_testing_block3_text h2 {
+  display: block;
+
+  padding: 10px 15px 0 15px;
+  background: #e30018;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: 'Helvetica-Normal';
+   
+  margin: 0 0 20px 0;
+}
+
+
+.allergy_testing_block3_text label {
+  display: block;
+  padding: 0px 0 0 56px; background-position: left top;
+  font-size: 30px; line-height: 32px;
+  color: #d3d6d7;
+  font-family: 'Helvetica-Normal';
+  font-weight: normal;
+  margin: 0 0 20px 0; width: 90%;
+} 
+
+.allergy_testing_block3_text label:nth-of-type(1){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block2_icon1.png) no-repeat; }
+.allergy_testing_block3_text label:nth-of-type(2){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block2_icon2.png) no-repeat; }
+.allergy_testing_block3_text label:nth-of-type(3){background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block2_icon3.png) no-repeat; }
+
+
+.allergy_testing_block3_text h3{ display: block; background: rgba(29,189,229,1);
+  background: -moz-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,189,229,1)), color-stop(100%, rgba(12,195,6,1)));
+  background: -webkit-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -o-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: -ms-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  background: linear-gradient(to right, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbde5', endColorstr='#0cc306', GradientType=1 ); margin: 0 0 55px 0; 
+  padding:15px 15px;   font-family:'Helvetica-Normal'; font-size:24px; color: #010921; text-shadow:  0 0 2px #d1d3d8; line-height: 30px; position: relative;}
+
+  .allergy_testing_block3_text h3::before{ position: absolute; content: ''; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_texticon.png) no-repeat left bottom!important;
+    display: block; width: 20px; height: 18px; position: absolute; left: 0; bottom:-18px;
+   }
+
+   .allergy_testing_block3_text_sub:nth-of-type(1){ width: 40%; display: block; float: left;}
+
+   .allergy_testing_block3_text_sub:nth-of-type(2){ width:58%; display: block; float: right;}
+
+   .allergy_testing_block3_text_sub strong{ display: block; padding-left: 50px; color: #d3d6d7;
+    font-family: 'Helvetica-Normal';
+    font-weight: normal;  font-size: 24px; line-height: 26px; position: relative; margin-bottom: 15px;}
+
+    .allergy_testing_block3_text_sub p{ display: block;  color: #d3d6d7;
+      font-family: 'Helvetica-Normal';
+      font-weight: normal;  font-size: 20px; line-height: 24px; position: relative; margin: 10px 0 0 50px; padding: 0 0 0 26px;}
+
+    .allergy_testing_block3_text_sub:nth-of-type(1) strong::before{ display: block; content: '1.'; position: absolute; font-size: 48px; color: #e72803; font-family: 'Helvetica-Normal';
+     font-weight: normal; left: 0; top: -6px;
+    }
+
+    .allergy_testing_block3_text_sub:nth-of-type(2) strong::before{ display: block; content: '2.'; position: absolute; font-size: 48px; color: #e72803; font-family: 'Helvetica-Normal';
+      font-weight: normal; left: 0; top: -6px;
+     }
+
+
+     .allergy_testing_block3_text_sub p:nth-of-type(1)::before{ display: block; content: 'a.'; position: absolute; font-size:24px; color: #16bf8f; font-family: 'Helvetica-Normal';
+      font-weight: normal; left: 0; top: -6px;
+     }
+ 
+     .allergy_testing_block3_text_sub p:nth-of-type(2)::before{ display: block; content: 'b.'; position: absolute; font-size: 24px; color: #16bf8f; font-family: 'Helvetica-Normal';
+      font-weight: normal; left: 0; top: -6px;
+     }
+ 
+     .allergy_testing_block3_body{ display: block;}
+
+
+     .blood_card_block1{display: block; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background:#ffffff url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-bg2.png) no-repeat left top!important; }
+
+     .blood_card_block1_wrapper{display: block; overflow: hidden; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-bg1.png) no-repeat right top!important; background-size: cover!important; }
+
+     .blood_card_block1_con{ display: block; overflow: hidden; padding: 55px 0; margin: 0 auto; text-align: center; width: 760px;}
+
+     .blood_card_block1_con h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 48px;
+      font-family: 'Helvetica-Normal';
+      text-align: center;
+      color: #0d0e09;
+      font-weight: normal;
+  }
+
+  .blood_card_block1_con h3 {
+    display: block;
+    font-size: 24px;
+    color: #0d0e09;
+    font-family: 'Helvetica-Normal';
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0 0 0;
+    margin:0;
+    background-position: left top!important;
+}
+
+
+.blood_card_block2{background: rgba(29,189,229,1)!important;
+  background: -moz-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,189,229,1)), color-stop(100%, rgba(12,195,6,1)))!important;
+  background: -webkit-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -o-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -ms-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: linear-gradient(to right, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbde5', endColorstr='#0cc306', GradientType=1 )!important;  
+  border: none!important; box-shadow: none!important; margin: 0!important; padding: 0!important; overflow: hidden;}
+
+  .blood_card_block2_body{ display: block; overflow: hidden; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_bg1.png) no-repeat left top!important; background-size: cover!important; padding-bottom: 50px;}
+
+  .blood_card_block2_body h2{ display: block; width: 1480px; margin: 40px auto; margin-bottom: 20px; font-size: 48px; color: #fff; text-transform: uppercase;     font-family: 'Helvetica-Normal'; line-height: 50px; text-shadow: 0 0 2px #0f7783;}
+
+
+  .blood_card_block2_wrapper{ width: 1480px; display: block; margin: 0 auto; padding: 0 100px; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_shadow.png) no-repeat left 112%!important;}
+
+
+  .blood_card_block2_wrapper_con{ display: block; background: rgba(182,234,242,1);
+    background: -moz-linear-gradient(-45deg, rgba(182,234,242,1) 0%, rgba(246,252,246,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(182,234,242,1)), color-stop(100%, rgba(246,252,246,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(182,234,242,1) 0%, rgba(246,252,246,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(182,234,242,1) 0%, rgba(246,252,246,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(182,234,242,1) 0%, rgba(246,252,246,1) 100%);
+    background: linear-gradient(135deg, rgba(182,234,242,1) 0%, rgba(246,252,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6eaf2', endColorstr='#f6fcf6', GradientType=1 );}
+
+
+    .blood_card_block2_wrapper_con_block1{background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_img1.png) no-repeat right top!important; display: block;
+     min-height: 592px; padding: 30px 660px 30px 30px;
+
+
+    }
+
+
+    .blood_card_block2_wrapper_con_block2{background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_img2.png) no-repeat left bottom!important; display: block;
+      padding: 30px 30px 30px 630px;     margin-top: -110px;
+     }
+
+     .blood_card_block2_wrapper_con p{ margin: 0 0 30px 0; padding:0px 0 0 34px; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_icon.png) no-repeat left 0!important;
+    font-size: 20px; color: #1e1e1e; font-family: 'Helvetica-Normal';
+    font-weight: normal; line-height: 24px; display: block;
+    }
+
+    .blood_card_block2_wrapper_con p strong{ font-weight: normal; color: #ff3000;}
+
+    .blood_card_block2_wrapper_con p label{ display: block; font-size: 30px; color: #1e1e1e; font-weight: bold; padding-bottom: 10px;}
