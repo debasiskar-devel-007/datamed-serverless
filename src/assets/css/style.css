@@ -1054,3 +1054,376 @@
     .blood_card_block2_wrapper_con p strong{ font-weight: normal; color: #ff3000;}
 
     .blood_card_block2_wrapper_con p label{ display: block; font-size: 30px; color: #1e1e1e; font-weight: bold; padding-bottom: 10px;}
+
+
+
+
+    .rm3atesting_block1{display: block; margin: 0!important; padding: 0!important; border: none!important; box-shadow: none!important; background:#ffffff url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-bg1.png) no-repeat right top!important; }
+
+    .rm3atesting_block1_wrapper{display: block; overflow: hidden; margin: 0 auto!important; width: 760px;  padding: 0 380px!important; border: none!important; box-shadow: none!important; background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_block1_img1.png) no-repeat left center!important; }
+
+    .rm3atesting_block1_con{ display: table-cell;    text-align: center;  vertical-align: middle; height: 430px; width: 100vw; }
+
+    .rm3atesting_block1_con h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 48px;
+      font-family: 'Helvetica-Normal';
+      text-align: center;
+      color: #0d0e09;
+      font-weight: normal;
+  }
+
+  .rm3atesting_block1_con h3 {
+    display: block;
+    font-size: 24px;
+    color: #0d0e09;
+    font-family: 'Helvetica-Normal';
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0 0 0;
+    margin:0;
+    background-position: left top!important;
+}
+
+
+.rm3atesting_block1_con h3  span{ color: #e32000;}
+
+
+
+.allergy_testing_block3_text h5{background: rgba(29,189,229,1)!important;
+  background: -moz-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,189,229,1)), color-stop(100%, rgba(12,195,6,1)))!important;
+  background: -webkit-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -o-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: -ms-linear-gradient(left, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  background: linear-gradient(to right, rgba(29,189,229,1) 0%, rgba(12,195,6,1) 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1dbde5', endColorstr='#0cc306', GradientType=1 )!important;  
+  border: none!important; box-shadow: none!important; margin: 0 0 15px 0!important;   overflow: hidden; font-size: 36px; color: #ffffff; text-transform: uppercase; 
+  padding: 14px; line-height: 40px;
+  font-family: 'Helvetica-Normal';  display: block; text-shadow: 0 0 2px #000;
+}
+
+.rm3atesting_block3_text{ display: block; width: 49%; float: left;}
+
+.rm3atesting_block3_text:nth-of-type(2){ float: right;}
+
+.rm3atesting_block3_text p{display: block; font-size: 24px; color: #d3d6d7; font-family: 'Helvetica-Normal'; margin:5px 0; padding: 0 0 0 32px; position: relative; }
+
+.rm3atesting_block3_text p::before{ content: ''; display: block; width: 13px; height: 13px; background: #ff0000; position: absolute; left: 0; top: 8px;}
+
+
+
+/*---------avijit--------------*/
+
+
+.nmsfunneldoctor_block8{
+  position: relative;
+  margin-bottom: 0px;
+}
+.nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper{
+  background-color: #ebf0f2; width: 1500px; margin: 0 auto;
+  padding: 30px 0px;
+}
+.nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper h2 {
+  padding: 0;
+  margin: 0;
+  color: #1b69a9;
+  font-family: 'Lato-Bold';
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.nmsfunneldoctor_block8 ol li {
+  position: relative;
+}
+/* .nmsfunneldoctor_block8 ol li:before {
+  content: counter(my-badass-counter);
+  counter-increment: my-badass-counter;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: bold 50px/1 Sans-Serif;
+} */
+.nmsfunneldoctor_block8 ol{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  list-style: decimal !important; margin: 0px;
+}
+.nmsfunneldoctor_block8 ol { counter-reset: item; }
+.nmsfunneldoctor_block8 ol li { display: block; }
+.nmsfunneldoctor_block8 ol li:before {
+  content: counters(item, ".")".";
+  counter-increment: item;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  color: #e30018;
+  padding: 5px 10px;
+  font-family:'Helvetica-Normal';
+}
+.nmsfunneldoctor_block8 ol{
+  background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/block8imgmiddle_new.png) no-repeat;
+  background-position: top;
+  background-size: contain;
+  padding-left: 0;
+}
+.listwarppercls{
+  background: #fff;
+  border-radius: 100px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px 10px;
+  margin: 15px 0;
+  width: 415px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+  position: relative;
+  /* box-shadow: 0 1px 5px rgba(0,0,0,0.2); */
+}
+.listwarppercls h4{
+  padding: 0;
+  margin: 0;
+  color: #454646;
+  font-family:'Helvetica-Normal';
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  width: 57%;
+  padding-left:40px;
+  font-weight: normal;
+}
+.nmsfunneldoctor_block8 ol li:first-child:last-child .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+2):nth-last-child(-n+2) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+3):nth-last-child(-n+3) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+4):nth-last-child(-n+4) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+5):nth-last-child(-n+5) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+6):nth-last-child(-n+6) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+7):nth-last-child(-n+7) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+8):nth-last-child(-n+8) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+9):nth-last-child(-n+9) .listwarppercls, .nmsfunneldoctor_block8 ol li:nth-child(n+10):nth-last-child(-n+10) .listwarppercls {
+
+  border-radius: 100px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nmsfunneldoctor_block8 ol li:first-child:last-child, .nmsfunneldoctor_block8 ol li:nth-child(n+2):nth-last-child(-n+2), .nmsfunneldoctor_block8 ol li:nth-child(n+3):nth-last-child(-n+3), .nmsfunneldoctor_block8 ol li:nth-child(n+4):nth-last-child(-n+4), .nmsfunneldoctor_block8 ol li:nth-child(n+5):nth-last-child(-n+5), .nmsfunneldoctor_block8 ol li:nth-child(n+6):nth-last-child(-n+6), .nmsfunneldoctor_block8 ol li:nth-child(n+7):nth-last-child(-n+7), .nmsfunneldoctor_block8 ol li:nth-child(n+8):nth-last-child(-n+8), .nmsfunneldoctor_block8 ol li:nth-child(n+9):nth-last-child(-n+9), .nmsfunneldoctor_block8 ol li:nth-child(n+10):nth-last-child(-n+10){
+  direction: rtl;
+}
+.nmsfunneldoctor_block8 ol li:first-child:last-child:before, .nmsfunneldoctor_block8 ol li:nth-child(n+2):nth-last-child(-n+2):before, .nmsfunneldoctor_block8 ol li:nth-child(n+3):nth-last-child(-n+3):before, .nmsfunneldoctor_block8 ol li:nth-child(n+4):nth-last-child(-n+4):before, .nmsfunneldoctor_block8 ol li:nth-child(n+5):nth-last-child(-n+5):before, .nmsfunneldoctor_block8 ol li:nth-child(n+6):nth-last-child(-n+6):before, .nmsfunneldoctor_block8 ol li:nth-child(n+7):nth-last-child(-n+7):before, .nmsfunneldoctor_block8 ol li:nth-child(n+8):nth-last-child(-n+8):before, .nmsfunneldoctor_block8 ol li:nth-child(n+9):nth-last-child(-n+9):before, .nmsfunneldoctor_block8 ol li:nth-child(n+10):nth-last-child(-n+10):before
+{
+  
+  font-size: 40px;
+  position: absolute;
+  right: 0 !important;
+  top: 0;
+  z-index: 9999;
+  /* width: 100%; */
+  left: inherit;
+}
+.imgwrapperblock8{
+  width: 105px;
+  height: 105px;
+  border-radius: 100px;
+  background-color: #eec019;
+ overflow: hidden;
+ border: 10px solid #eec019;
+}
+.imgwrapperblock8 img{
+  max-width: 100%;
+  object-fit: cover;
+  min-height: 100%;
+}
+.libase{position: relative;}
+.li1:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 81%;
+  background-color: #333;
+  width: 286px;
+  height: 2px;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(22deg);
+}
+.li2:after{
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 48%;
+  background-color: #333;
+  width: 259px;
+  height: 2px;
+  transform: rotate(-5deg);
+}
+.li3:after{
+  content: "";
+  position: absolute;
+  right: 30px;
+  top: 34%;
+  background-color: #333;
+  width: 253px;
+  height: 2px;
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-17deg);
+}
+.li4:after{
+  content: "";
+  position: absolute;
+  right: 34px;
+  top: 48%;
+  background-color: #333;
+  width: 245px;
+  height: 2px;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-4deg);
+}
+.li5:after{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 55%;
+  background-color: #333;
+  width: 278px;
+  height: 2px;
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(0deg);
+}
+.li6:after{
+  content: "";
+  position: absolute;
+  left: 17px;
+  top: 38%;
+  background-color: #333;
+  width: 267px;
+  height: 2px;
+  -webkit-transform: rotate(22deg);
+  transform: rotate(14deg);
+}
+.li7:after{
+  content: "";
+  position: absolute;
+  left: 40px;
+  top: 54%;
+  background-color: #333;
+  width: 240px;
+  height: 2px;
+  transform: rotate(0deg);
+}
+.li8:after{
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 17%;
+  background-color: #333;
+  width: 270px;
+  height: 2px;
+  -webkit-transform: rotate(32deg);
+  transform: rotate(26deg);
+}
+.vmblock2 {    background: #ebf0f2 !important; margin: 0!important; padding: 0!important;}
+.vmblock2 .yellowbtn{display: block; margin: 0 auto;}
+
+.vmblock2 h6{background:#fff url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_textbg.jpg) no-repeat center bottom;  text-align: center;
+
+ font-size: 40px; color: #000000; text-transform: uppercase;  font-family:'Helvetica-Normal'; margin: 0px; padding: 30px 15px 50px 15px;
+}
+
+/*-------------------*/
+
+/*---------22------*/
+.ts_block3{
+  background-image: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/ts_banner2.png) !important;  
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  padding: 30px 0 !important;     border: none;
+  box-shadow: none!important;
+}
+.contentwrapper .mat-card-subtitle{display: flex; margin: 0; padding: 10px 0;}
+.contentwrapper .mat-card-subtitle strong{ font-size: 72px; color: #e30018;padding-right: 20px;line-height: 57px;}
+.contentwrapper .mat-card-subtitle p{font-family:'Helvetica-Normal'; font-size: 20px; color: #1e1e1e; display: block; margin: 0; padding: 0;}
+.contentwrapper .mat-card-subtitle p span{font-family:'Helvetica-Normal'; font-size: 30px; color: #1e1e1e; display: block; font-weight: bold; margin: 0; padding: 0;}
+.contentwrapper {
+  background: rgba(255,255,255,0.6);
+  padding: 20px;
+  margin: 0;
+  background-image: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/ts_banner3.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.listimage3{
+  float: right;
+  margin-right: -20px;
+  margin-top: -86px;
+  margin-left: -130px;
+}
+.listimage2{
+  margin-left: -20px;
+  float: left;
+  margin-right: -210px;
+  margin-bottom: -130px;
+  margin-top: -70px;
+}
+.listimage1{
+  float: right;
+  margin-top: -70px !important;
+  margin-right: -80px;
+  margin-bottom: -160px;
+}
+.ts_block3  .titlewrapper h2{text-align: left; color: #fff;   font-family: 'Helvetica-Normal';   margin: 0;   padding: 0 0 20px 0;
+  font-size: 48px; text-shadow: 0 0 2px #000;}
+
+
+.newcontainer {
+  width: 1495px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contentwrapper{ position: relative;}
+
+.contentwrapper::before{ content: '';  background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/blood-card-block2_shadow.png) no-repeat left bottom;
+ display: block; width: 135px; height: 330px; position: absolute; left:-136px; bottom: 0;
+}
+
+ 
+/*---------------*/
+
+
+.rm3atesting_report_block{ display: block!important; border: none!important; box-shadow: none!important; margin: 0px;  background:#f7fdfd url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report_bg.png) no-repeat right top!important; 
+  margin: 0!important; padding: 0!important; border: none;}
+
+
+  .rm3atesting_report_block_wrapper{ display: block; width: 1500px; margin: 0 auto; padding-bottom: 30px!important;}
+
+  .rm3atesting_report_block_wrapper h2{ text-align: center;
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Helvetica-Normal';
+    margin: 0px;
+    padding: 30px 15px 25px 15px;
+}
+
+.rm3atesting_report_block_wrapper_block{ display: flex;  flex-wrap: wrap;} 
+
+.rm3reportspan_body{ flex-direction: column;     column-count: 2; vertical-align: top; }
+
+.rm3reportspan{    
+  display: block;  margin: 0 0 10px 0!important;
+ 
+  box-sizing: border-box;
+  border: 1px solid #696a6a;
+  text-align: center;}
+  .rm3reportspan img{width: 99%; margin: 0.5%;}
+
+  .rm3reportspan_img{background: #e8edf0; padding: 10px;   display: block;}
+
+
+  .rm3reportspan:nth-of-type(4),  .rm3reportspan:nth-of-type(5){ width: 520px;}
+ 
