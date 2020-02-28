@@ -15,7 +15,7 @@
 
     .allergy_testing_block2{ background-position: 110% top!important; background-size: 50%!important;}
 
-    
+    .rm3atesting_block1_wrapper{  width: 700px;}
     
 }
 
@@ -32,10 +32,23 @@
     .blood_card_block1_wrapper{ background-position: 20% top!important;}
 
     .blood_card_block1 { background-position: -18% top!important;}
+
+    .rm3atesting_report_block{ background-position: -70px top!important;}
 }
 
 
+@media(max-width:1760px) {
+
+    .rm3atesting_block1{ background-position: 60% top!important;}
+}
+
 @media(max-width:1700px) {
+
+    .rm3atesting_report_block_wrapper { width: 1400px;}
+
+    .rm3reportspan:nth-of-type(4), .rm3reportspan:nth-of-type(5) {
+        width: 470px;
+    }
 
 
     .aws_banner_img7 {
@@ -100,6 +113,14 @@
             }
 }
 @media(max-width:1680px) {
+
+    .rm3atesting_report_block{ background-position: -240px top!important;}
+
+    .rm3atesting_report_block_wrapper { width: 1180px;}
+
+    .rm3reportspan:nth-of-type(4), .rm3reportspan:nth-of-type(5) {
+        width: 390px;
+    }
     .home_block1 {
         background-size: 22%!important;
     }
@@ -130,6 +151,10 @@
         width: 1480px; background-image: none!important;     padding: 0px;}
 
         .blood_card_block2_wrapper_con_block2 { margin-top: -80px;}
+
+        .listimage1 {
+            margin-right: -14px;
+        }
 }
 
 @media(max-width:1600px) {
@@ -140,6 +165,10 @@
 }
 
 @media(max-width:1580px) {
+
+    .rm3atesting_report_block {
+        background-position: -330px top!important;
+    }
     .blood-card-testing_banner{ background-position: -120px top!important;}
 
     .team_banner {
@@ -148,6 +177,17 @@
 
     .home_block3_wrapper1 {
         width: 80%;
+    }
+
+    .nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper {
+        background-color: #ebf0f2;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 15px 0 30px 0px;
+    }
+
+    .newcontainer {
+        width: 94%;
     }
 }
 
@@ -189,6 +229,10 @@
 
 @media(max-width:1500px) {
 
+    .rm3atesting_report_block {
+        background-position: -400px top!important;
+    }
+
     .blood_card_block1_con{ width: 810px;}
     .blood_card_block1 {
         background-position: -30% top!important;
@@ -223,9 +267,21 @@
     .home_block1 {
         background-size: 20%!important;
     }
+
+    .rm3atesting_block1_wrapper {
+        width: 540px;
+    }
+
+    .rm3atesting_block1_wrapper {
+        width: 640px;
+        padding: 0 300px 0 380px!important;
+    }
 }
 
 @media(max-width:1440px) {
+
+    .listimage2 {
+        margin-left: -70px;}
 
     .blood_card_block1_con {
         width: 750px;
@@ -332,6 +388,24 @@
 }
 
 @media(max-width:1400px) {
+
+    .contentwrapper .mat-card-subtitle p span { 
+        font-size: 30px; 
+        margin: 0;
+        padding: 0 0 7px 0;
+        line-height: 32px;
+    }
+
+    .contentwrapper .mat-card-subtitle strong {
+        font-size: 72px;
+        color: #e30018;
+        padding-right: 20px;
+        line-height: 42px;
+    }
+
+    .listimage2{ margin-bottom: -100px;}
+
+    
     .team_block3_body_text {
         width: 750px;
     }
@@ -366,10 +440,14 @@
                 background-position: 50% top!important;
             }
 
+            .rm3atesting_report_block {
+                background-position: -460px top!important;
+            }
+
 }
 @media(max-width:1360px) {
 
-
+    .allergy_testing_block3_text h5{ font-size: 34px; line-height: 38px;}
     .blood_card_block1 {
         background-position: -40% top!important;
     }
@@ -409,6 +487,11 @@
 
 
 @media(max-width:1320px) {
+
+    .rm3atesting_block1_wrapper {
+        width: 620px;
+        padding: 0 250px 0 360px!important;
+    }
     .team_banner {
         background-position: -458px top!important;
     }
@@ -480,8 +563,41 @@
     .blood_card_block2_wrapper_con_block2 {
         margin-top: -150px;
     }
+
+    .nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper {
+        background-color: #ebf0f2;
+        width: 1150px;
+        margin: 0 auto;
+        padding: 15px 0 30px 0px;
+    }
+
+    .rm3atesting_report_block {
+        background-position: -520px top!important;
+    }
+
+    .rm3atesting_report_block_wrapper {
+        width: 1050px;
+    }
+
+    .rm3reportspan:nth-of-type(4), .rm3reportspan:nth-of-type(5) {
+        width: 340px;
+    }
 }
+@media(max-width:1260px) {
+.listimage1 {
+   
+    margin-bottom: -180px;
+}
+}
+
+
+
 @media(max-width:1240px) {
+
+    .rm3atesting_block1_wrapper {
+        width: 580px;
+        padding: 0 250px 0 360px!important;
+    }
 
     .footer_form_text {
         width: 390px;}
@@ -508,6 +624,169 @@
 
 
 @media(max-width:1199px) {
+
+
+    .rm3atesting_report_block{ background-image: none!important;
+        background: rgba(181,235,199,1)!important;
+        background: -moz-linear-gradient(-45deg, rgba(181,235,199,1) 0%, rgba(255,255,255,1) 100%)!important;
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(181,235,199,1)), color-stop(100%, rgba(255,255,255,1)))!important;
+        background: -webkit-linear-gradient(-45deg, rgba(181,235,199,1) 0%, rgba(255,255,255,1) 100%)!important;
+        background: -o-linear-gradient(-45deg, rgba(181,235,199,1) 0%, rgba(255,255,255,1) 100%)!important;
+        background: -ms-linear-gradient(-45deg, rgba(181,235,199,1) 0%, rgba(255,255,255,1) 100%)!important;
+        background: linear-gradient(135deg, rgba(181,235,199,1) 0%, rgba(255,255,255,1) 100%)!important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5ebc7', endColorstr='#ffffff', GradientType=1 )!important;
+    }
+
+    .rm3atesting_report_block_wrapper h2{    padding: 30px 15px 5px 15px;}
+
+
+    .rm3atesting_report_block_wrapper {
+        width: auto; margin: 0 25px;
+    }
+
+    .rm3reportspan:nth-of-type(4), .rm3reportspan:nth-of-type(5) {
+        width: 49%;
+    }
+
+    .rm3reportspan{ width: 49%; display: inline-block; margin: 10px 0.5%!important; }
+    .rm3atesting_report_block_wrapper_block{ display: block; text-align: center;  } 
+
+
+    .rm3reportspan_img{height: 220px; overflow: hidden;}
+.rm3reportspan_body{ flex-direction: initial;    }
+
+
+
+
+    .ts_block3 .titlewrapper h2 {line-height: 50px;}
+
+    .contentwrapper{ background-image: none; border: solid 1px #ccc;}
+
+    .contentwrapper .mat-card-subtitle {
+        display: block;}
+
+    .ts_block3 .titlewrapper h2{ text-align: center;}
+
+
+    .listimage1  { 
+        margin: 0 auto!important;
+        float: none;
+        display: block; max-width: 100%!important;
+    }
+    .listimage2  {
+        margin: 0 0 0 -20px!important;
+        float: none;  display: block;
+        width: 100%; max-width: 100%!important;
+    }
+
+    .listimage3  {
+        margin: 0 0 0 20px!important;
+        float: none;
+        width: 100%;
+    }
+
+    .contentwrapper  .mat-card-subtitle  strong  {
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 0px;
+        width: 100%;  
+        line-height: inherit;     display: block;
+    }
+
+    .contentwrapper .mat-card-subtitle p{ text-align: center;}
+
+    .listwarppercls {
+        width: auto;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        justify-content: center;
+        border-radius: 0 !important;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        height: 85%;
+        padding: 3%;
+    }
+
+    .nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper {
+        background-color: #ebf0f2;
+        width: auto;
+        margin: 0 auto;
+        padding: 15px 15px 30px 15px;
+    }
+
+
+    .nmsfunneldoctor_block8 ol li:after {display: none;}
+  .nmsfunneldoctor_block8 ol li {
+      display: block;
+      width: 47%;
+      margin: 6px;
+  }
+  .nmsfunneldoctor_block8 ol {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-gap: inherit;
+      -moz-column-gap: inherit;
+      column-gap: inherit;
+      list-style: decimal !important;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: none;
+      align-items: stretch;
+  }
+  .listwarppercls h4 {
+      font-size: 18px;
+      line-height: 24px;
+      width: 100%;
+      padding-left: 0;
+      text-align: center; padding-top: 20px;
+  }
+
+  .nmsfunneldoctor_block8 ol li:first-child:last-child:before, .nmsfunneldoctor_block8 ol li:nth-child(n+2):nth-last-child(-n+2):before, .nmsfunneldoctor_block8 ol li:nth-child(n+3):nth-last-child(-n+3):before, .nmsfunneldoctor_block8 ol li:nth-child(n+4):nth-last-child(-n+4):before, .nmsfunneldoctor_block8 ol li:nth-child(n+5):nth-last-child(-n+5):before, .nmsfunneldoctor_block8 ol li:nth-child(n+6):nth-last-child(-n+6):before, .nmsfunneldoctor_block8 ol li:nth-child(n+7):nth-last-child(-n+7):before, .nmsfunneldoctor_block8 ol li:nth-child(n+8):nth-last-child(-n+8):before, .nmsfunneldoctor_block8 ol li:nth-child(n+9):nth-last-child(-n+9):before, .nmsfunneldoctor_block8 ol li:nth-child(n+10):nth-last-child(-n+10):before {
+      font-size: 40px;
+      position: absolute;
+      right: inherit !important;
+      top: 0;
+      z-index: 9999;
+      left: 0;
+  }
+
+
+    .allergy_testing_block3_text h5 {
+        font-size: 34px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .rm3atesting_block1_con h2 {
+        line-height: 48px;
+    }
+    .rm3atesting_block1_con {
+        display: block;
+        text-align: center; 
+        height: auto;
+        width: auto; padding-bottom: 390px!important;
+        background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_block1_img1.png) no-repeat  bottom center!important; 
+    }
+
+    .rm3atesting_block1_wrapper {
+        width: auto;
+        padding: 50px 25px!important;
+        background: rgba(221, 232, 253, 0.9)!important;
+    }
+
+
+    .rm3atesting_block1 {
+        display: block;
+        overflow: hidden;
+        margin: 0!important;
+        padding: 0!important;
+        border: none!important;
+        box-shadow: none!important;
+        background: url(https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/allergy-testing_block1_img2.png) no-repeat right top!important;
+        
+    }
 
     .blood_card_block2_wrapper_con_block1 {
         padding: 30px;
@@ -997,6 +1276,8 @@
             .team_list_wrapper{ text-align: center; margin-top: 20px;}
             
             .team_block2 h2{ font-size: 38px;     padding: 25px 0 15px 0 ;}
+
+            .vmblock2 h6{ font-size: 32px; line-height: 38px; padding: 30px 15px 30px 15px; background-image: none!important;}
   
 }
 
@@ -1011,6 +1292,33 @@
 }
 
 @media(max-width:960px) {
+
+    .allergy_testing_block3_text h5 {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .rm3atesting_block3_text p{padding: 12px 0 0 0;}
+    .rm3atesting_block3_text p::before {
+        content: '';
+        display: block;
+        width: 13px;
+        height: 13px;
+        background: #ff0000;
+        position: inherit;
+        left: 0;
+        top: 0; 
+        margin: 0 auto;
+    }
+
+
+    .rm3atesting_block3_text {
+        display: block;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
     .footer_form_wrapper_body {
         background-position: center bottom!important;
         background-size: 110%!important;
@@ -1149,7 +1457,23 @@
 }
 
 
+
+@media(max-width:767px) {
+.rm3reportspan:nth-of-type(4), .rm3reportspan:nth-of-type(5) {
+    width: 100%;
+}
+
+.rm3reportspan{ width: 100%;  margin: 10px 0!important; }
+
+
+.rm3reportspan_img{height: auto; overflow: initial;}
+
+}
+
+
 @media(max-width:640px) {
+
+    .nmsfunneldoctor_block8 ol li{ width: 100%;}
     .allergy_testing_report_wrapper{ width:100%; display: block; }
     .allergy_testing_report_wrapper span{ width:90%; display: block; margin: 10px auto;  }
 
@@ -1297,6 +1621,16 @@
 
 
 @media(max-width:440px) {
+
+    .blood_card_block1_con h2 {
+        line-height: 38px;
+        font-size: 40px;
+    }
+
+    .rm3atesting_block1_con  h2 {
+        line-height: 38px;
+        font-size: 40px; 
+    }
     .blood_card_block2_body h2{ font-size: 38px;}
 
     
@@ -1334,8 +1668,7 @@
 
 
 
-.rm3atesting_bnner_text h2 p{ font-size: 40px;
-}
+.rm3atesting_bnner_text h2 p{ font-size: 40px;}
 
 
     .blood-card-testing_bnner_text h2 p{font-size: 40px;}
@@ -1343,6 +1676,9 @@
         .allergy-testing_bnner_text h2 p{font-size: 40px;}
 
         .team_bnner_text h2 p{font-size: 40px;}
+
+
+        .rm3atesting_block1_con{background-size: 100%!important; padding-bottom: 105%!important;} 
 
 }
 

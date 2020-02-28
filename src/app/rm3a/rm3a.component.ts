@@ -25,6 +25,22 @@ export class Rm3aComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    console.warn(this.rm3reportImg);
   }
+
+ 
+  rm3reportImg= [
+    {id:"1", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report1_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report1_big.jpg"},
+    {id:"2", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report2_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report2_big.jpg"},
+    {id:"3", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report3_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report3_big.jpg"},
+    {id:"4", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report4_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report4_big.jpg"},
+    {id:"5", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report5_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report5_big.jpg"},
+    {id:"6", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report6_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report6_big.jpg"},
+    {id:"7", image:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report7_sm.jpg", subtitle:"REPORT Form", bigImage:"https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/rm3atesting_report7_big.jpg"},
+     
+   
+
+]
 
 }
