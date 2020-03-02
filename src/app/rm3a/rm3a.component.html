@@ -285,11 +285,20 @@ additional In-Depth Patient Testing </p>
       <h2>Sample Report</h2>
       <span class="rm3atesting_report_block_wrapper_block">
         <span class="rm3reportspan_body">
-      <span class="rm3reportspan" *ngFor="let item of rm3reportImg; let i = index"  >
 
+           <span class="rm3reportspan" *ngFor="let item of rm3reportImg; let i = index"  (click)="openDialog(item)"  >
+
+        <span  class="zoom_icon1">  <img src="https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/zoom_icon.png"></span>
         <span class="rm3reportspan_img">
+         
         <img src="{{item.image}}" >
+
+       
       </span>
+     
+
+   
+
          </span>
 
 
