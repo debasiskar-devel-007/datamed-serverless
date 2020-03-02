@@ -625,6 +625,8 @@
 
 @media(max-width:1199px) {
 
+    .zoom_icon1{ top: 31%; }
+
 
     .rm3atesting_report_block{ background-image: none!important;
         background: rgba(181,235,199,1)!important;
@@ -704,8 +706,9 @@
         margin: 0;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         height: 85%;
-        padding: 3%;
+        padding: 3%; z-index: 0;
     }
+ 
 
     .nmsfunneldoctor_block8 .nmsfunneldoctor_block_wrapper {
         background-color: #ebf0f2;
@@ -748,10 +751,11 @@
       position: absolute;
       right: inherit !important;
       top: 0;
-      z-index: 9999;
+      z-index: 9;
       left: 0;
   }
 
+  .nmsfunneldoctor_block8 ol li:before{  z-index: 9;}
 
     .allergy_testing_block3_text h5 {
         font-size: 34px;

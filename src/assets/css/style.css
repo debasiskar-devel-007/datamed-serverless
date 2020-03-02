@@ -147,7 +147,7 @@
 .footer_block2{ background: #010101; margin: 0; padding: 18px 0!important; border-top: solid 1px #576c68; background: #010101!important;
    text-align: center; font-size: 13px; color: #777777;   font-family:'Helvetica-Normal';}
 
-   .footer_block2 span{ display: inline-block; padding: 2px 6px; font-size: 13px; color: #777777;   font-family:'Helvetica-Normal';}
+   .footer_block2 span{ display: inline-block; padding: 2px 6px; font-size: 14px; color: #777777;   font-family:'Helvetica-Normal';}
 
    .footer_block2 span:nth-child(1),   .footer_block2 span:nth-child(2){ cursor: pointer;}
 
@@ -304,7 +304,8 @@
  
   .allergy_testing_report_wrapper span:hover::before{display: block; z-index: 99;}
 
-  .bigimageform{ width: 90vw; height: 90vh; }
+  .bigimageform{ width: 90vw; height: 90vh;    border: solid 10px #212a36;
+    border-radius: 10px; }
   .bigimageform img{ width: 100%; }
 
   .bigimageform .mat-dialog-container{ padding: 10px;}
@@ -1414,16 +1415,46 @@
 
 .rm3reportspan_body{ flex-direction: column;     column-count: 2; vertical-align: top; }
 
-.rm3reportspan{    
+.rm3reportspan{  overflow: hidden;   
   display: block;  margin: 0 0 10px 0!important;
- 
+  background: #000;
   box-sizing: border-box;
   border: 1px solid #696a6a;
-  text-align: center;}
+  text-align: center;  position: relative;}
   .rm3reportspan img{width: 99%; margin: 0.5%;}
 
-  .rm3reportspan_img{background: #e8edf0; padding: 10px;   display: block;}
+  .rm3reportspan_img{ padding: 10px;   display: block;
+    background:#e8edf0;
+  }
+
+
+  .rm3reportspan:hover .rm3reportspan_img{ opacity: 0.5;}
+
+  .zoom_icon1{ display: none; width:100%!important;  position: absolute; text-align: center; vertical-align: middle; left: 0; top: 33%; }
+
+  .rm3reportspan:hover .zoom_icon1{ display: block; display: table-cell; z-index: 99;}
+
+  .zoom_icon1 img{ width: 77px!important; height: 77px!important;}
+
+
+
+ 
 
 
   .rm3reportspan:nth-of-type(4),  .rm3reportspan:nth-of-type(5){ width: 520px;}
  
+ .footermodal{    border: solid 10px #212a36; margin: 25px;
+    border-radius: 10px; }
+  
+
+  .footermodal .mat-dialog-container{ padding: 10px;}
+
+  .footermodal h2{    font-size:30px;
+     color: #e72803; 
+    font-family: 'Helvetica-Normal';
+    text-transform: uppercase;
+    text-align: center;
+    padding:20px 15px 20px 15px;
+    margin: 0;
+    font-weight: bold;
+}}
