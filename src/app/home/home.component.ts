@@ -2,9 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { MetaService } from '@ngx-meta/core';
 
  
-
- 
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -24,6 +21,7 @@ export class HomeComponent implements OnInit {
     this.meta.setTag('og:title', 'DataMed Unlimited - Home');
     this.meta.setTag('twitter:title', 'DataMed Unlimited - Home');
     this.meta.setTag('og:type', 'website');
+    this.meta.setTag('og:url','https://datamedunlimited.com/home');
     this.meta.setTag('og:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/Facebook_Meta_Image.jpg');
     this.meta.setTag('twitter:image', 'https://all-frontend-assets.s3.amazonaws.com/datamed-unlimited/assets/images/Twitter_Meta_Image.jpg');
   
