@@ -744,9 +744,9 @@
  .team_block1_wrapper h3{ margin: 0; padding: 0; font-size: 30px; color: #222a34;  font-family:'Helvetica-Normal'; text-align: center; font-weight: normal; line-height: 32px;}
 
 
- .team_list_wrapper{ width: 100%; margin-top: 30px; display: block }
-
- .team_list_wrapper .team_list{ display: block; width: 25%; float: left; text-align: center;}
+ .team_list_wrapper{ width: 100%; margin-top: 30px; display: block;  text-align: center;}
+ 
+ .team_list_wrapper .team_list{ display: inline-block; width: 25%;  text-align: center;}  
 
  .team_list_wrapper .team_list .team_list_img{ display: block; width: 240px; height: 240px; margin: 0 auto; background: rgba(26,189,189,1);
   background: -moz-linear-gradient(top, rgba(26,189,189,1) 0%, rgba(77,77,77,1) 100%);
@@ -1457,4 +1457,4 @@
     padding:20px 15px 20px 15px;
     margin: 0;
     font-weight: bold;
-}}
+}

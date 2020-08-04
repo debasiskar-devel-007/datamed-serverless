@@ -155,5 +155,8 @@
       }
     }
   },
-  "defaultProject": "datamed-serverless"
+  "defaultProject": "datamed-serverless",
+  "cli": {
+    "analytics": "9dd46e48-07cf-4b58-9b50-5922ac57e421"
+  }
 }
